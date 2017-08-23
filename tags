@@ -1,0 +1,897 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_CFLAG	Application.mk	/^APP_CFLAG := -g -ggdb -O0$/;"	m
+APP_OPTIM	Application.mk	/^APP_OPTIM := debug $/;"	m
+APP_STL	Application.mk	/^APP_STL := gnustl_static$/;"	m
+BnTVMediaClient	include/ITVMediaClient.h	/^class BnTVMediaClient : public BnInterface<ITVMediaClient> {  $/;"	c
+BnTVMediaService	include/ITVMediaService.h	/^class BnTVMediaService : public BnInterface<ITVMediaService> {  $/;"	c
+BpTVMediaClient	src/ITVMediaClient.cpp	/^        BpTVMediaClient(const sp<IBinder>& impl)$/;"	f	class:BpTVMediaClient
+BpTVMediaClient	src/ITVMediaClient.cpp	/^class BpTVMediaClient: public BpInterface<ITVMediaClient>                                                                                   $/;"	c	file:
+BpTVMediaService	src/ITVMediaService.cpp	/^        BpTVMediaService(const sp<IBinder>& impl) : BpInterface<ITVMediaService>(impl)$/;"	f	class:BpTVMediaService
+BpTVMediaService	src/ITVMediaService.cpp	/^class BpTVMediaService: public BpInterface<ITVMediaService> {$/;"	c	file:
+CTCMediaServiceClient	include/CTCMediaServiceClient.h	/^class CTCMediaServiceClient$/;"	c
+CTCMediaServiceClient	src/CTCMediaServiceClient.cpp	/^CTCMediaServiceClient::CTCMediaServiceClient()$/;"	f	class:CTCMediaServiceClient
+DEBUG	src/CTCMediaServiceClient.cpp	8;"	d	file:
+DEBUG	src/IPTVMediaClient.cpp	10;"	d	file:
+DEBUG	src/IPTVMediaService.cpp	8;"	d	file:
+DEBUG	src/ITVMediaClient.cpp	5;"	d	file:
+DEBUG	src/ITVMediaService.cpp	5;"	d	file:
+DEBUG	src/TVMediaClient.cpp	5;"	d	file:
+DEBUG	src/TVMediaService.cpp	5;"	d	file:
+Data	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::Data(int start, int end)$/;"	f	class:CTCMediaServiceClient
+Data	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::Data(int start, int end)$/;"	f	class:IPTVMediaClient
+Data	src/IPTVMediaService.cpp	/^int IPTVMediaService::Data(int start, int end)$/;"	f	class:IPTVMediaService
+Data	src/ITVMediaService.cpp	/^        int Data(int start, int end)$/;"	f	class:BpTVMediaService
+Data	src/TVMediaService.cpp	/^int TVMediaService::Data(int start, int end)$/;"	f	class:TVMediaService
+EventMsg	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::EventMsg(void *arg)                                                                                                   $/;"	f	class:CTCMediaServiceClient
+GETURL	src/ITVMediaClient.cpp	/^    GETURL,$/;"	e	enum:__anon2	file:
+GetLastError	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::GetLastError()$/;"	f	class:CTCMediaServiceClient
+GetLastError	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::GetLastError()$/;"	f	class:IPTVMediaClient
+GetLastError	src/IPTVMediaService.cpp	/^int IPTVMediaService::GetLastError()$/;"	f	class:IPTVMediaService
+GetLastError	src/ITVMediaService.cpp	/^        int GetLastError()$/;"	f	class:BpTVMediaService
+GetLastError	src/TVMediaService.cpp	/^int TVMediaService::GetLastError()$/;"	f	class:TVMediaService
+GetURL	test/TVMediaClientExec.cpp	/^char * GetURL(int id)$/;"	f
+IPTVMEDIASERVICE_H	include/IPTVMediaService.h	2;"	d
+IPTVMediaClient	include/IPTVMediaClient.h	/^class IPTVMediaClient$/;"	c
+IPTVMediaClient	src/IPTVMediaClient.cpp	/^IPTVMediaClient::IPTVMediaClient(getIptvUrl url, mediaIptvMsg msg)$/;"	f	class:IPTVMediaClient
+IPTVMediaService	include/IPTVMediaService.h	/^class IPTVMediaService {$/;"	c
+IPTVMediaService	src/IPTVMediaService.cpp	/^IPTVMediaService::IPTVMediaService(TVMediaService *service)$/;"	f	class:IPTVMediaService
+ITVMEDIASERVICE_H	include/ITVMediaService.h	2;"	d
+ITVMediaClient	include/ITVMediaClient.h	/^class ITVMediaClient: public IInterface {$/;"	c
+ITVMediaClient_H	include/ITVMediaClient.h	2;"	d
+ITVMediaService	include/ITVMediaService.h	/^class ITVMediaService: public IInterface {$/;"	c
+JNITVMEDIACLIENT_H	include/IPTVMediaClient.h	2;"	d
+LOCAL_CERTIFICATE	src/Android.mk	/^LOCAL_CERTIFICATE := platform$/;"	m
+LOCAL_MODULE	src/Android.mk	/^LOCAL_MODULE := libTVMediaService$/;"	m
+LOCAL_MODULE	test/Android.mk	/^LOCAL_MODULE := TVMediaClient$/;"	m
+LOCAL_MODULE	test/Android.mk	/^LOCAL_MODULE := TVMediaService  $/;"	m
+LOCAL_MODULE_TAGS	src/Android.mk	/^LOCAL_MODULE_TAGS := eng$/;"	m
+LOCAL_MODULE_TAGS	test/Android.mk	/^LOCAL_MODULE_TAGS := eng #optional  $/;"	m
+LOCAL_PATH	src/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_PATH	test/Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	src/Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SHARED_LIBRARIES	test/Android.mk	/^LOCAL_SHARED_LIBRARIES := liblog libbinder libutils libTVMediaService$/;"	m
+LOCAL_SRC_FILES	src/Android.mk	/^LOCAL_SRC_FILES := \\$/;"	m
+LOCAL_SRC_FILES	test/Android.mk	/^LOCAL_SRC_FILES := TVMediaClientExec.cpp   $/;"	m
+LOCAL_SRC_FILES	test/Android.mk	/^LOCAL_SRC_FILES := TVMediaServiceExec.cpp   $/;"	m
+LOGD	src/CTCMediaServiceClient.cpp	13;"	d	file:
+LOGD	src/CTCMediaServiceClient.cpp	17;"	d	file:
+LOGD	src/IPTVMediaClient.cpp	15;"	d	file:
+LOGD	src/IPTVMediaClient.cpp	19;"	d	file:
+LOGD	src/IPTVMediaService.cpp	13;"	d	file:
+LOGD	src/IPTVMediaService.cpp	17;"	d	file:
+LOGD	src/ITVMediaClient.cpp	10;"	d	file:
+LOGD	src/ITVMediaClient.cpp	14;"	d	file:
+LOGD	src/ITVMediaService.cpp	10;"	d	file:
+LOGD	src/ITVMediaService.cpp	14;"	d	file:
+LOGD	src/TVMediaClient.cpp	10;"	d	file:
+LOGD	src/TVMediaClient.cpp	14;"	d	file:
+LOGD	src/TVMediaService.cpp	10;"	d	file:
+LOGD	src/TVMediaService.cpp	14;"	d	file:
+LOGD	test/TVMediaClientExec.cpp	7;"	d	file:
+LOGD	test/TVMediaServiceExec.cpp	6;"	d	file:
+MEDIAMSG	src/ITVMediaClient.cpp	/^    MEDIAMSG$/;"	e	enum:__anon2	file:
+MEDIA_ADDBATCHMEDIA	include/ITVMediaService.h	/^            MEDIA_ADDBATCHMEDIA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_ADDSINGLEMEDIA	include/ITVMediaService.h	/^            MEDIA_ADDSINGLEMEDIA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_BINDNATIVEPLAYERINSTANCE	include/ITVMediaService.h	/^            MEDIA_BINDNATIVEPLAYERINSTANCE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_CLEARALLMEDIA	include/ITVMediaService.h	/^            MEDIA_CLEARALLMEDIA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_CREATE	include/ITVMediaService.h	/^            MEDIA_CREATE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_DATA	include/ITVMediaService.h	/^            MEDIA_DATA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_FAST	include/ITVMediaService.h	/^            MEDIA_FAST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GET	include/ITVMediaService.h	/^            MEDIA_GET,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETALLOWTRICKMODEFLAG	include/ITVMediaService.h	/^            MEDIA_GETALLOWTRICKMODEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETAUDIOPID	include/ITVMediaService.h	/^            MEDIA_GETAUDIOPID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETAUDIOPIDS	include/ITVMediaService.h	/^            MEDIA_GETAUDIOPIDS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETAUDIOTRACK	include/ITVMediaService.h	/^            MEDIA_GETAUDIOTRACK,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETAUDIOTRACKUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETAUDIOTRACKUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETAUDIOVOLUMEUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETAUDIOVOLUMEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCHANNELNOUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETCHANNELNOUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCHANNELNUM	include/ITVMediaService.h	/^            MEDIA_GETCHANNELNUM,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCURRENTAUDIOCHANNEL	include/ITVMediaService.h	/^            MEDIA_GETCURRENTAUDIOCHANNEL,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCURRENTINDEX	include/ITVMediaService.h	/^            MEDIA_GETCURRENTINDEX,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCURRENTPLAYTIME	include/ITVMediaService.h	/^            MEDIA_GETCURRENTPLAYTIME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCURRENTPOS	include/ITVMediaService.h	/^            MEDIA_GETCURRENTPOS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETCYCLEFLAG	include/ITVMediaService.h	/^            MEDIA_GETCYCLEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETDURATION	include/ITVMediaService.h	/^            MEDIA_GETDURATION,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETENTRYID	include/ITVMediaService.h	/^            MEDIA_GETENTRYID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETLASTERROR	include/ITVMediaService.h	/^            MEDIA_GETLASTERROR,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETMEDIACODE	include/ITVMediaService.h	/^            MEDIA_GETMEDIACODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETMEDIACOUNT	include/ITVMediaService.h	/^            MEDIA_GETMEDIACOUNT,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETMUTE	include/ITVMediaService.h	/^            MEDIA_GETMUTE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETMUTEFLAG	include/ITVMediaService.h	/^            MEDIA_GETMUTEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETMUTEUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETMUTEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETNATIVEPLAYERINSTANCEID	include/ITVMediaService.h	/^            MEDIA_GETNATIVEPLAYERINSTANCEID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETNATIVEUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETNATIVEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETPLAYBACKMODE	include/ITVMediaService.h	/^            MEDIA_GETPLAYBACKMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETPLAYERINSTACEID	include/ITVMediaService.h	/^            MEDIA_GETPLAYERINSTACEID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETPLAYLIST	include/ITVMediaService.h	/^            MEDIA_GETPLAYLIST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETPLAYMODE	include/ITVMediaService.h	/^            MEDIA_GETPLAYMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETPROGRESSBARUIFLAG	include/ITVMediaService.h	/^            MEDIA_GETPROGRESSBARUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETRANDOWFLAG	include/ITVMediaService.h	/^            MEDIA_GETRANDOWFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETSINGLEORPLAYLISTMODE	include/ITVMediaService.h	/^            MEDIA_GETSINGLEORPLAYLISTMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETSUBTITILEFLAG	include/ITVMediaService.h	/^            MEDIA_GETSUBTITILEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETSUBTITLE	include/ITVMediaService.h	/^            MEDIA_GETSUBTITLE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETSUBTITLEPID	include/ITVMediaService.h	/^            MEDIA_GETSUBTITLEPID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETSUBTITLEPIDS	include/ITVMediaService.h	/^            MEDIA_GETSUBTITLEPIDS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVENDORSPECIFICATTR	include/ITVMediaService.h	/^            MEDIA_GETVENDORSPECIFICATTR,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVERSION	include/ITVMediaService.h	/^            MEDIA_GETVERSION,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEOALPHA	include/ITVMediaService.h	/^            MEDIA_GETVIDEOALPHA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEODISPLAYHEIGHT	include/ITVMediaService.h	/^            MEDIA_GETVIDEODISPLAYHEIGHT,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEODISPLAYLEFT	include/ITVMediaService.h	/^            MEDIA_GETVIDEODISPLAYLEFT,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEODISPLAYMODE	include/ITVMediaService.h	/^            MEDIA_GETVIDEODISPLAYMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEODISPLAYTOP	include/ITVMediaService.h	/^            MEDIA_GETVIDEODISPLAYTOP,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEODISPLAYWIDTH	include/ITVMediaService.h	/^            MEDIA_GETVIDEODISPLAYWIDTH,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVIDEOPIXELS	include/ITVMediaService.h	/^            MEDIA_GETVIDEOPIXELS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GETVOLUME	include/ITVMediaService.h	/^            MEDIA_GETVOLUME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GOTOEND	include/ITVMediaService.h	/^            MEDIA_GOTOEND,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_GOTOSTART	include/ITVMediaService.h	/^            MEDIA_GOTOSTART,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_INIT	include/ITVMediaService.h	/^            MEDIA_INIT = IBinder::FIRST_CALL_TRANSACTION,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_INITMEDIAPLAYER	include/ITVMediaService.h	/^            MEDIA_INITMEDIAPLAYER,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_JOINCHANNEL	include/ITVMediaService.h	/^            MEDIA_JOINCHANNEL,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_LEAVECHANNEL	include/ITVMediaService.h	/^            MEDIA_LEAVECHANNEL,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIABYINDEX	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIABYINDEX,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIABYINDEX1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIABYINDEX1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIABYOFFSET	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIABYOFFSET,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIABYOFFSET1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIABYOFFSET1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOFIRST	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOFIRST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOFIRST1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOFIRST1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOLAST	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOLAST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOLAST1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOLAST1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATONEXT	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATONEXT,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATONEXT1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATONEXT1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOPREVIOUS	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOPREVIOUS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_MOVEMEDIATOPREVIOUS1	include/ITVMediaService.h	/^            MEDIA_MOVEMEDIATOPREVIOUS1,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_PAUSE	include/ITVMediaService.h	/^            MEDIA_PAUSE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_PLAY	include/ITVMediaService.h	/^            MEDIA_PLAY,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_PLAYBYTIME	include/ITVMediaService.h	/^            MEDIA_PLAYBYTIME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_PLAYFROMSTART	include/ITVMediaService.h	/^            MEDIA_PLAYFROMSTART,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_REFRESHVIDEODISPLAY	include/ITVMediaService.h	/^            MEDIA_REFRESHVIDEODISPLAY,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_REGCB	include/ITVMediaService.h	/^            MEDIA_REGCB,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_RELEASEMEDIAPLAYER	include/ITVMediaService.h	/^            MEDIA_RELEASEMEDIAPLAYER,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_REMOVEMEDIABYENTRYID	include/ITVMediaService.h	/^            MEDIA_REMOVEMEDIABYENTRYID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_REMOVEMEDIABYINDEX	include/ITVMediaService.h	/^            MEDIA_REMOVEMEDIABYINDEX,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_RESET	include/ITVMediaService.h	/^            MEDIA_RESET,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_RESUME	include/ITVMediaService.h	/^            MEDIA_RESUME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_REWIND	include/ITVMediaService.h	/^            MEDIA_REWIND,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_RUNGAME	include/ITVMediaService.h	/^            MEDIA_RUNGAME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SEEK	include/ITVMediaService.h	/^            MEDIA_SEEK, $/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTFIRST	include/ITVMediaService.h	/^            MEDIA_SELECTFIRST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTLAST	include/ITVMediaService.h	/^            MEDIA_SELECTLAST,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTMEDIABYENTRYID	include/ITVMediaService.h	/^            MEDIA_SELECTMEDIABYENTRYID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTMEDIABYINDEX	include/ITVMediaService.h	/^            MEDIA_SELECTMEDIABYINDEX,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTMEDIABYOFFSET	include/ITVMediaService.h	/^            MEDIA_SELECTMEDIABYOFFSET,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTNEXT	include/ITVMediaService.h	/^            MEDIA_SELECTNEXT,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SELECTPREVIOUS	include/ITVMediaService.h	/^            MEDIA_SELECTPREVIOUS,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SENDVENDORSPECIFICCOMMAND	include/ITVMediaService.h	/^            MEDIA_SENDVENDORSPECIFICCOMMAND,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SET	include/ITVMediaService.h	/^            MEDIA_SET,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETALLOWTRICKMODEFLAG	include/ITVMediaService.h	/^            MEDIA_SETALLOWTRICKMODEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETALPHA	include/ITVMediaService.h	/^            MEDIA_SETALPHA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETAUDIOPID	include/ITVMediaService.h	/^            MEDIA_SETAUDIOPID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETAUDIOTRACKUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETAUDIOTRACKUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETAUDIOVOLUMEUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETAUDIOVOLUMEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETCHANNELNOUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETCHANNELNOUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETCYCLEFLAG	include/ITVMediaService.h	/^            MEDIA_SETCYCLEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETMUTE	include/ITVMediaService.h	/^            MEDIA_SETMUTE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETMUTEFLAG	include/ITVMediaService.h	/^            MEDIA_SETMUTEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETMUTEUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETMUTEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETNATIVEUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETNATIVEUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETPROGRESSBARUIFLAG	include/ITVMediaService.h	/^            MEDIA_SETPROGRESSBARUIFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETRANDOMFLAG	include/ITVMediaService.h	/^            MEDIA_SETRANDOMFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETRATIO	include/ITVMediaService.h	/^            MEDIA_SETRATIO,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETSINGLEMEDIA	include/ITVMediaService.h	/^            MEDIA_SETSINGLEMEDIA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETSINGLEORPLAYLISTMODE	include/ITVMediaService.h	/^            MEDIA_SETSINGLEORPLAYLISTMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETSUBTITILEFLAG	include/ITVMediaService.h	/^            MEDIA_SETSUBTITILEFLAG,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETSUBTITLEPID	include/ITVMediaService.h	/^            MEDIA_SETSUBTITLEPID,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVENDORSPECIFICATTR	include/ITVMediaService.h	/^            MEDIA_SETVENDORSPECIFICATTR,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVIDEOALPHA	include/ITVMediaService.h	/^            MEDIA_SETVIDEOALPHA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVIDEODISPLAYAREA	include/ITVMediaService.h	/^            MEDIA_SETVIDEODISPLAYAREA,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVIDEODISPLAYMODE	include/ITVMediaService.h	/^            MEDIA_SETVIDEODISPLAYMODE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVIDEOWINDOW	include/ITVMediaService.h	/^            MEDIA_SETVIDEOWINDOW,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SETVOLUME	include/ITVMediaService.h	/^            MEDIA_SETVOLUME,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_STOP	include/ITVMediaService.h	/^            MEDIA_STOP,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SWITCHAUDIOCHANNEL	include/ITVMediaService.h	/^            MEDIA_SWITCHAUDIOCHANNEL,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SWITCHAUDIOTRACK	include/ITVMediaService.h	/^            MEDIA_SWITCHAUDIOTRACK,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_SWITCHSUBTITLE	include/ITVMediaService.h	/^            MEDIA_SWITCHSUBTITLE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_UNREGCB	include/ITVMediaService.h	/^            MEDIA_UNREGCB,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_VIDEOHIDE	include/ITVMediaService.h	/^            MEDIA_VIDEOHIDE,$/;"	e	enum:ITVMediaService::__anon1
+MEDIA_VIDEOSHOW	include/ITVMediaService.h	/^            MEDIA_VIDEOSHOW,$/;"	e	enum:ITVMediaService::__anon1
+MediaMsg	src/IPTVMediaService.cpp	/^void IPTVMediaService::MediaMsg(void *arg)$/;"	f	class:IPTVMediaService
+MediaMsg	test/TVMediaClientExec.cpp	/^void MediaMsg(char *msg)$/;"	f
+NOTIFY	src/ITVMediaClient.cpp	/^    NOTIFY = IBinder::FIRST_CALL_TRANSACTION,$/;"	e	enum:__anon2	file:
+SERVICE_NAME	include/ITVMediaService.h	20;"	d
+SERVICE_NAME	test/TVMediaServiceExec.cpp	8;"	d	file:
+TAG	src/CTCMediaServiceClient.cpp	1;"	d	file:
+TAG	src/IPTVMediaClient.cpp	1;"	d	file:
+TAG	src/IPTVMediaService.cpp	1;"	d	file:
+TAG	src/ITVMediaClient.cpp	1;"	d	file:
+TAG	src/ITVMediaService.cpp	1;"	d	file:
+TAG	src/TVMediaClient.cpp	1;"	d	file:
+TAG	src/TVMediaService.cpp	1;"	d	file:
+TAG	test/TVMediaClientExec.cpp	1;"	d	file:
+TAG	test/TVMediaServiceExec.cpp	1;"	d	file:
+TVCTCMEDIASERVICECLIENT_H	include/CTCMediaServiceClient.h	2;"	d
+TVMEDIACLIENT_H	include/TVMediaClient.h	2;"	d
+TVMEDIASERVICE_H	include/TVMediaService.h	2;"	d
+TVMediaClient	include/TVMediaClient.h	/^class TVMediaClient : public BnTVMediaClient$/;"	c
+TVMediaClient	src/TVMediaClient.cpp	/^TVMediaClient::TVMediaClient(IPTVMediaClient *iptvMClient)$/;"	f	class:TVMediaClient
+TVMediaPlayerRect	include/CTCMediaServiceClient.h	/^struct TVMediaPlayerRect {                                                                                                                              $/;"	s
+TVMediaService	include/TVMediaService.h	/^class TVMediaService : public BnTVMediaService$/;"	c
+TVMediaService	src/TVMediaService.cpp	/^TVMediaService::TVMediaService()$/;"	f	class:TVMediaService
+XLOGD	src/CTCMediaServiceClient.cpp	11;"	d	file:
+XLOGD	src/CTCMediaServiceClient.cpp	12;"	d	file:
+XLOGD	src/CTCMediaServiceClient.cpp	15;"	d	file:
+XLOGD	src/CTCMediaServiceClient.cpp	16;"	d	file:
+XLOGD	src/IPTVMediaClient.cpp	13;"	d	file:
+XLOGD	src/IPTVMediaClient.cpp	14;"	d	file:
+XLOGD	src/IPTVMediaClient.cpp	17;"	d	file:
+XLOGD	src/IPTVMediaClient.cpp	18;"	d	file:
+XLOGD	src/IPTVMediaService.cpp	11;"	d	file:
+XLOGD	src/IPTVMediaService.cpp	12;"	d	file:
+XLOGD	src/IPTVMediaService.cpp	15;"	d	file:
+XLOGD	src/IPTVMediaService.cpp	16;"	d	file:
+XLOGD	src/ITVMediaClient.cpp	12;"	d	file:
+XLOGD	src/ITVMediaClient.cpp	13;"	d	file:
+XLOGD	src/ITVMediaClient.cpp	8;"	d	file:
+XLOGD	src/ITVMediaClient.cpp	9;"	d	file:
+XLOGD	src/ITVMediaService.cpp	12;"	d	file:
+XLOGD	src/ITVMediaService.cpp	13;"	d	file:
+XLOGD	src/ITVMediaService.cpp	8;"	d	file:
+XLOGD	src/ITVMediaService.cpp	9;"	d	file:
+XLOGD	src/TVMediaClient.cpp	12;"	d	file:
+XLOGD	src/TVMediaClient.cpp	13;"	d	file:
+XLOGD	src/TVMediaClient.cpp	8;"	d	file:
+XLOGD	src/TVMediaClient.cpp	9;"	d	file:
+XLOGD	src/TVMediaService.cpp	12;"	d	file:
+XLOGD	src/TVMediaService.cpp	13;"	d	file:
+XLOGD	src/TVMediaService.cpp	8;"	d	file:
+XLOGD	src/TVMediaService.cpp	9;"	d	file:
+_CTC_MEDIACONTROL_H_	src/CTC_MediaControl.h	2;"	d
+addBatchMedia	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::addBatchMedia(const char*& batchMediaStr)$/;"	f	class:CTCMediaServiceClient
+addBatchMedia	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::addBatchMedia(const char*& batchMediaStr)$/;"	f	class:IPTVMediaClient
+addBatchMedia	src/IPTVMediaService.cpp	/^int IPTVMediaService::addBatchMedia(const char*& batchMediaStr)$/;"	f	class:IPTVMediaService
+addBatchMedia	src/ITVMediaService.cpp	/^        int addBatchMedia(const char*& batchMediaStr)$/;"	f	class:BpTVMediaService
+addBatchMedia	src/TVMediaService.cpp	/^int TVMediaService::addBatchMedia(const char*& batchMediaStr)$/;"	f	class:TVMediaService
+addSingleMedia	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::addSingleMedia(int index, const char*& mediaStr)$/;"	f	class:CTCMediaServiceClient
+addSingleMedia	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::addSingleMedia(int index, const char*& mediaStr)$/;"	f	class:IPTVMediaClient
+addSingleMedia	src/IPTVMediaService.cpp	/^int IPTVMediaService::addSingleMedia(int index, const char*& mediaStr)$/;"	f	class:IPTVMediaService
+addSingleMedia	src/ITVMediaService.cpp	/^        int addSingleMedia(int index, const char*& mediaStr)$/;"	f	class:BpTVMediaService
+addSingleMedia	src/TVMediaService.cpp	/^int  TVMediaService::addSingleMedia(int index, const char*& mediaStr)$/;"	f	class:TVMediaService
+android	src/CTC_MediaControl.h	/^namespace android {$/;"	n
+bindNativePlayerInstance	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::bindNativePlayerInstance(int nativePlayerInstanceID)$/;"	f	class:CTCMediaServiceClient
+bindNativePlayerInstance	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::bindNativePlayerInstance(int nativePlayerInstanceID)$/;"	f	class:IPTVMediaClient
+bindNativePlayerInstance	src/IPTVMediaService.cpp	/^int IPTVMediaService::bindNativePlayerInstance(int nativePlayerInstanceID)$/;"	f	class:IPTVMediaService
+bindNativePlayerInstance	src/ITVMediaService.cpp	/^        int bindNativePlayerInstance(int nativePlayerInstanceID)$/;"	f	class:BpTVMediaService
+bindNativePlayerInstance	src/TVMediaService.cpp	/^int  TVMediaService::bindNativePlayerInstance(int nativePlayerInstanceID)$/;"	f	class:TVMediaService
+clearAllMedia	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::clearAllMedia()$/;"	f	class:CTCMediaServiceClient
+clearAllMedia	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::clearAllMedia()$/;"	f	class:IPTVMediaClient
+clearAllMedia	src/IPTVMediaService.cpp	/^void IPTVMediaService::clearAllMedia()$/;"	f	class:IPTVMediaService
+clearAllMedia	src/ITVMediaService.cpp	/^        void clearAllMedia()$/;"	f	class:BpTVMediaService
+clearAllMedia	src/TVMediaService.cpp	/^void TVMediaService::clearAllMedia()$/;"	f	class:TVMediaService
+connect	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::connect()$/;"	f	class:IPTVMediaClient
+create	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::create(const char* url, int id)$/;"	f	class:IPTVMediaClient
+create	src/IPTVMediaService.cpp	/^IPTVMediaService* IPTVMediaService::create(TVMediaService *service)$/;"	f	class:IPTVMediaService
+create	src/IPTVMediaService.cpp	/^int  IPTVMediaService::create(const char* url)$/;"	f	class:IPTVMediaService
+create	src/ITVMediaService.cpp	/^        int create(const char* url, int id)$/;"	f	class:BpTVMediaService
+create	src/TVMediaService.cpp	/^int TVMediaService::create(const char* url, int id)$/;"	f	class:TVMediaService
+disconnect	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::disconnect()$/;"	f	class:IPTVMediaClient
+event_report	src/CTC_MediaControl.h	/^    mplayer_event_handler event_report;$/;"	m	struct:android::mplayer_status
+fast	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::fast(int speed)$/;"	f	class:CTCMediaServiceClient
+fast	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::fast(int speed)$/;"	f	class:IPTVMediaClient
+fast	src/IPTVMediaService.cpp	/^void IPTVMediaService::fast(int speed)$/;"	f	class:IPTVMediaService
+fast	src/ITVMediaService.cpp	/^        void fast(int speed)$/;"	f	class:BpTVMediaService
+fast	src/TVMediaService.cpp	/^void TVMediaService::fast(int speed) $/;"	f	class:TVMediaService
+get	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::get(char* ioStr)                                                                                                $/;"	f	class:CTCMediaServiceClient
+get	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::get(char* ioStr)                                                                                                $/;"	f	class:IPTVMediaClient
+get	src/IPTVMediaService.cpp	/^char* IPTVMediaService::get(char* ioStr)                                                                                                $/;"	f	class:IPTVMediaService
+get	src/ITVMediaService.cpp	/^        char* get(char* ioStr)$/;"	f	class:BpTVMediaService
+get	src/TVMediaService.cpp	/^char* TVMediaService::get(char* ioStr)$/;"	f	class:TVMediaService
+getAllowTrickmodeFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getAllowTrickmodeFlag()$/;"	f	class:CTCMediaServiceClient
+getAllowTrickmodeFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getAllowTrickmodeFlag()$/;"	f	class:IPTVMediaClient
+getAllowTrickmodeFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getAllowTrickmodeFlag()$/;"	f	class:IPTVMediaService
+getAllowTrickmodeFlag	src/ITVMediaService.cpp	/^        int getAllowTrickmodeFlag()$/;"	f	class:BpTVMediaService
+getAllowTrickmodeFlag	src/TVMediaService.cpp	/^int TVMediaService::getAllowTrickmodeFlag()$/;"	f	class:TVMediaService
+getAudioPID	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getAudioPID()$/;"	f	class:CTCMediaServiceClient
+getAudioPID	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getAudioPID()$/;"	f	class:IPTVMediaClient
+getAudioPID	src/IPTVMediaService.cpp	/^int IPTVMediaService::getAudioPID()$/;"	f	class:IPTVMediaService
+getAudioPID	src/ITVMediaService.cpp	/^        int getAudioPID()$/;"	f	class:BpTVMediaService
+getAudioPID	src/TVMediaService.cpp	/^int TVMediaService::getAudioPID()$/;"	f	class:TVMediaService
+getAudioPIDs	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getAudioPIDs()$/;"	f	class:CTCMediaServiceClient
+getAudioPIDs	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getAudioPIDs()$/;"	f	class:IPTVMediaClient
+getAudioPIDs	src/IPTVMediaService.cpp	/^int IPTVMediaService::getAudioPIDs()$/;"	f	class:IPTVMediaService
+getAudioPIDs	src/ITVMediaService.cpp	/^        int getAudioPIDs()$/;"	f	class:BpTVMediaService
+getAudioPIDs	src/TVMediaService.cpp	/^int TVMediaService::getAudioPIDs()$/;"	f	class:TVMediaService
+getAudioTrack	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getAudioTrack()$/;"	f	class:CTCMediaServiceClient
+getAudioTrack	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getAudioTrack()$/;"	f	class:IPTVMediaClient
+getAudioTrack	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getAudioTrack()$/;"	f	class:IPTVMediaService
+getAudioTrack	src/ITVMediaService.cpp	/^      char* getAudioTrack()$/;"	f	class:BpTVMediaService
+getAudioTrack	src/TVMediaService.cpp	/^char* TVMediaService::getAudioTrack()$/;"	f	class:TVMediaService
+getAudioTrackUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getAudioTrackUIFlag()$/;"	f	class:CTCMediaServiceClient
+getAudioTrackUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getAudioTrackUIFlag()$/;"	f	class:IPTVMediaClient
+getAudioTrackUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getAudioTrackUIFlag()$/;"	f	class:IPTVMediaService
+getAudioTrackUIFlag	src/ITVMediaService.cpp	/^        int getAudioTrackUIFlag()$/;"	f	class:BpTVMediaService
+getAudioTrackUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getAudioTrackUIFlag()$/;"	f	class:TVMediaService
+getAudioVolumeUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getAudioVolumeUIFlag()$/;"	f	class:CTCMediaServiceClient
+getAudioVolumeUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getAudioVolumeUIFlag()$/;"	f	class:IPTVMediaClient
+getAudioVolumeUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getAudioVolumeUIFlag()$/;"	f	class:IPTVMediaService
+getAudioVolumeUIFlag	src/ITVMediaService.cpp	/^        int getAudioVolumeUIFlag()$/;"	f	class:BpTVMediaService
+getAudioVolumeUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getAudioVolumeUIFlag()$/;"	f	class:TVMediaService
+getChannelNoUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getChannelNoUIFlag()$/;"	f	class:CTCMediaServiceClient
+getChannelNoUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getChannelNoUIFlag()$/;"	f	class:IPTVMediaClient
+getChannelNoUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getChannelNoUIFlag()$/;"	f	class:IPTVMediaService
+getChannelNoUIFlag	src/ITVMediaService.cpp	/^        int getChannelNoUIFlag()$/;"	f	class:BpTVMediaService
+getChannelNoUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getChannelNoUIFlag()$/;"	f	class:TVMediaService
+getChannelNum	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getChannelNum()$/;"	f	class:CTCMediaServiceClient
+getChannelNum	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getChannelNum()$/;"	f	class:IPTVMediaClient
+getChannelNum	src/IPTVMediaService.cpp	/^int IPTVMediaService::getChannelNum()$/;"	f	class:IPTVMediaService
+getChannelNum	src/ITVMediaService.cpp	/^       int getChannelNum()$/;"	f	class:BpTVMediaService
+getChannelNum	src/TVMediaService.cpp	/^int TVMediaService::getChannelNum()$/;"	f	class:TVMediaService
+getCurrentAudioChannel	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getCurrentAudioChannel()$/;"	f	class:CTCMediaServiceClient
+getCurrentAudioChannel	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getCurrentAudioChannel()$/;"	f	class:IPTVMediaClient
+getCurrentAudioChannel	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getCurrentAudioChannel()$/;"	f	class:IPTVMediaService
+getCurrentAudioChannel	src/ITVMediaService.cpp	/^      char* getCurrentAudioChannel()$/;"	f	class:BpTVMediaService
+getCurrentAudioChannel	src/TVMediaService.cpp	/^char* TVMediaService::getCurrentAudioChannel()$/;"	f	class:TVMediaService
+getCurrentIndex	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getCurrentIndex()$/;"	f	class:CTCMediaServiceClient
+getCurrentIndex	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getCurrentIndex()$/;"	f	class:IPTVMediaClient
+getCurrentIndex	src/IPTVMediaService.cpp	/^int IPTVMediaService::getCurrentIndex()$/;"	f	class:IPTVMediaService
+getCurrentIndex	src/ITVMediaService.cpp	/^        int getCurrentIndex()$/;"	f	class:BpTVMediaService
+getCurrentIndex	src/TVMediaService.cpp	/^int TVMediaService::getCurrentIndex()$/;"	f	class:TVMediaService
+getCurrentPlayTime	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getCurrentPlayTime()$/;"	f	class:CTCMediaServiceClient
+getCurrentPlayTime	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getCurrentPlayTime()$/;"	f	class:IPTVMediaClient
+getCurrentPlayTime	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getCurrentPlayTime()$/;"	f	class:IPTVMediaService
+getCurrentPlayTime	src/ITVMediaService.cpp	/^        char* getCurrentPlayTime()$/;"	f	class:BpTVMediaService
+getCurrentPlayTime	src/TVMediaService.cpp	/^char* TVMediaService::getCurrentPlayTime()$/;"	f	class:TVMediaService
+getCurrentPos	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getCurrentPos()$/;"	f	class:CTCMediaServiceClient
+getCurrentPos	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getCurrentPos()$/;"	f	class:IPTVMediaClient
+getCurrentPos	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getCurrentPos()$/;"	f	class:IPTVMediaService
+getCurrentPos	src/ITVMediaService.cpp	/^        int getCurrentPos()$/;"	f	class:BpTVMediaService
+getCurrentPos	src/TVMediaService.cpp	/^int  TVMediaService::getCurrentPos()$/;"	f	class:TVMediaService
+getCycleFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getCycleFlag()$/;"	f	class:CTCMediaServiceClient
+getCycleFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getCycleFlag()$/;"	f	class:IPTVMediaClient
+getCycleFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getCycleFlag()$/;"	f	class:IPTVMediaService
+getCycleFlag	src/ITVMediaService.cpp	/^        int getCycleFlag()$/;"	f	class:BpTVMediaService
+getCycleFlag	src/TVMediaService.cpp	/^int TVMediaService::getCycleFlag()$/;"	f	class:TVMediaService
+getDuration	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getDuration()$/;"	f	class:CTCMediaServiceClient
+getDuration	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getDuration()$/;"	f	class:IPTVMediaClient
+getDuration	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getDuration()$/;"	f	class:IPTVMediaService
+getDuration	src/ITVMediaService.cpp	/^        int getDuration()$/;"	f	class:BpTVMediaService
+getDuration	src/TVMediaService.cpp	/^int  TVMediaService::getDuration()$/;"	f	class:TVMediaService
+getEntryID	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getEntryID()$/;"	f	class:CTCMediaServiceClient
+getEntryID	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getEntryID()$/;"	f	class:IPTVMediaClient
+getEntryID	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getEntryID()$/;"	f	class:IPTVMediaService
+getEntryID	src/ITVMediaService.cpp	/^        char* getEntryID()$/;"	f	class:BpTVMediaService
+getEntryID	src/TVMediaService.cpp	/^char* TVMediaService::getEntryID()$/;"	f	class:TVMediaService
+getIptvUrl	include/IPTVMediaClient.h	/^typedef const char* (*getIptvUrl)(int);$/;"	t
+getMediaCode	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getMediaCode()$/;"	f	class:CTCMediaServiceClient
+getMediaCode	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getMediaCode()$/;"	f	class:IPTVMediaClient
+getMediaCode	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getMediaCode()$/;"	f	class:IPTVMediaService
+getMediaCode	src/ITVMediaService.cpp	/^        char* getMediaCode()$/;"	f	class:BpTVMediaService
+getMediaCode	src/TVMediaService.cpp	/^char* TVMediaService::getMediaCode()$/;"	f	class:TVMediaService
+getMediaCount	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getMediaCount()$/;"	f	class:CTCMediaServiceClient
+getMediaCount	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getMediaCount()$/;"	f	class:IPTVMediaClient
+getMediaCount	src/IPTVMediaService.cpp	/^int IPTVMediaService::getMediaCount()$/;"	f	class:IPTVMediaService
+getMediaCount	src/ITVMediaService.cpp	/^        int getMediaCount()$/;"	f	class:BpTVMediaService
+getMediaCount	src/TVMediaService.cpp	/^int TVMediaService::getMediaCount()$/;"	f	class:TVMediaService
+getMute	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getMute()$/;"	f	class:CTCMediaServiceClient
+getMute	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getMute()$/;"	f	class:IPTVMediaClient
+getMute	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getMute()$/;"	f	class:IPTVMediaService
+getMute	src/ITVMediaService.cpp	/^        int getMute()$/;"	f	class:BpTVMediaService
+getMute	src/TVMediaService.cpp	/^int  TVMediaService::getMute()$/;"	f	class:TVMediaService
+getMuteFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getMuteFlag()$/;"	f	class:CTCMediaServiceClient
+getMuteFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getMuteFlag()$/;"	f	class:IPTVMediaClient
+getMuteFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getMuteFlag()$/;"	f	class:IPTVMediaService
+getMuteFlag	src/ITVMediaService.cpp	/^       int getMuteFlag()$/;"	f	class:BpTVMediaService
+getMuteFlag	src/TVMediaService.cpp	/^int TVMediaService::getMuteFlag()$/;"	f	class:TVMediaService
+getMuteUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getMuteUIFlag()$/;"	f	class:CTCMediaServiceClient
+getMuteUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getMuteUIFlag()$/;"	f	class:IPTVMediaClient
+getMuteUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getMuteUIFlag()$/;"	f	class:IPTVMediaService
+getMuteUIFlag	src/ITVMediaService.cpp	/^        int getMuteUIFlag()$/;"	f	class:BpTVMediaService
+getMuteUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getMuteUIFlag()$/;"	f	class:TVMediaService
+getNativePlayerInstanceID	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getNativePlayerInstanceID()$/;"	f	class:CTCMediaServiceClient
+getNativePlayerInstanceID	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getNativePlayerInstanceID()$/;"	f	class:IPTVMediaClient
+getNativePlayerInstanceID	src/IPTVMediaService.cpp	/^int IPTVMediaService::getNativePlayerInstanceID()$/;"	f	class:IPTVMediaService
+getNativePlayerInstanceID	src/ITVMediaService.cpp	/^        int getNativePlayerInstanceID()$/;"	f	class:BpTVMediaService
+getNativePlayerInstanceID	src/TVMediaService.cpp	/^int TVMediaService::getNativePlayerInstanceID()$/;"	f	class:TVMediaService
+getNativeUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getNativeUIFlag()$/;"	f	class:CTCMediaServiceClient
+getNativeUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getNativeUIFlag()$/;"	f	class:IPTVMediaClient
+getNativeUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getNativeUIFlag()$/;"	f	class:IPTVMediaService
+getNativeUIFlag	src/ITVMediaService.cpp	/^        int getNativeUIFlag()$/;"	f	class:BpTVMediaService
+getNativeUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getNativeUIFlag()$/;"	f	class:TVMediaService
+getPlayMode	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getPlayMode()$/;"	f	class:CTCMediaServiceClient
+getPlayMode	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getPlayMode()$/;"	f	class:IPTVMediaClient
+getPlayMode	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getPlayMode()$/;"	f	class:IPTVMediaService
+getPlayMode	src/ITVMediaService.cpp	/^        int getPlayMode()$/;"	f	class:BpTVMediaService
+getPlayMode	src/TVMediaService.cpp	/^int  TVMediaService::getPlayMode()$/;"	f	class:TVMediaService
+getPlaybackMode	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getPlaybackMode()$/;"	f	class:CTCMediaServiceClient
+getPlaybackMode	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getPlaybackMode()$/;"	f	class:IPTVMediaClient
+getPlaybackMode	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getPlaybackMode()$/;"	f	class:IPTVMediaService
+getPlaybackMode	src/ITVMediaService.cpp	/^       char* getPlaybackMode()$/;"	f	class:BpTVMediaService
+getPlaybackMode	src/TVMediaService.cpp	/^char* TVMediaService::getPlaybackMode()$/;"	f	class:TVMediaService
+getPlayerInstaceId	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getPlayerInstaceId()$/;"	f	class:CTCMediaServiceClient
+getPlayerInstaceId	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getPlayerInstaceId()$/;"	f	class:IPTVMediaClient
+getPlayerInstaceId	src/IPTVMediaService.cpp	/^int IPTVMediaService::getPlayerInstaceId()$/;"	f	class:IPTVMediaService
+getPlayerInstaceId	src/ITVMediaService.cpp	/^        int getPlayerInstaceId()$/;"	f	class:BpTVMediaService
+getPlayerInstaceId	src/TVMediaService.cpp	/^int  TVMediaService::getPlayerInstaceId()$/;"	f	class:TVMediaService
+getPlaylist	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getPlaylist()$/;"	f	class:CTCMediaServiceClient
+getPlaylist	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getPlaylist()$/;"	f	class:IPTVMediaClient
+getPlaylist	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getPlaylist()$/;"	f	class:IPTVMediaService
+getPlaylist	src/ITVMediaService.cpp	/^        char* getPlaylist()$/;"	f	class:BpTVMediaService
+getPlaylist	src/TVMediaService.cpp	/^char* TVMediaService::getPlaylist()$/;"	f	class:TVMediaService
+getProgressBarUIFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getProgressBarUIFlag()$/;"	f	class:CTCMediaServiceClient
+getProgressBarUIFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getProgressBarUIFlag()$/;"	f	class:IPTVMediaClient
+getProgressBarUIFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getProgressBarUIFlag()$/;"	f	class:IPTVMediaService
+getProgressBarUIFlag	src/ITVMediaService.cpp	/^        int getProgressBarUIFlag()$/;"	f	class:BpTVMediaService
+getProgressBarUIFlag	src/TVMediaService.cpp	/^int TVMediaService::getProgressBarUIFlag()$/;"	f	class:TVMediaService
+getRandomFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getRandomFlag()$/;"	f	class:CTCMediaServiceClient
+getRandomFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getRandomFlag()$/;"	f	class:IPTVMediaClient
+getRandomFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getRandomFlag()$/;"	f	class:IPTVMediaService
+getRandomFlag	src/ITVMediaService.cpp	/^        int getRandomFlag()$/;"	f	class:BpTVMediaService
+getRandomFlag	src/TVMediaService.cpp	/^int TVMediaService::getRandomFlag()$/;"	f	class:TVMediaService
+getSingleOrPlaylistMode	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getSingleOrPlaylistMode()$/;"	f	class:CTCMediaServiceClient
+getSingleOrPlaylistMode	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getSingleOrPlaylistMode()$/;"	f	class:IPTVMediaClient
+getSingleOrPlaylistMode	src/IPTVMediaService.cpp	/^int IPTVMediaService::getSingleOrPlaylistMode()$/;"	f	class:IPTVMediaService
+getSingleOrPlaylistMode	src/ITVMediaService.cpp	/^        int getSingleOrPlaylistMode()$/;"	f	class:BpTVMediaService
+getSingleOrPlaylistMode	src/TVMediaService.cpp	/^int TVMediaService::getSingleOrPlaylistMode()$/;"	f	class:TVMediaService
+getSubtitileFlag	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getSubtitileFlag()$/;"	f	class:CTCMediaServiceClient
+getSubtitileFlag	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getSubtitileFlag()$/;"	f	class:IPTVMediaClient
+getSubtitileFlag	src/IPTVMediaService.cpp	/^int IPTVMediaService::getSubtitileFlag()$/;"	f	class:IPTVMediaService
+getSubtitileFlag	src/ITVMediaService.cpp	/^        int getSubtitileFlag()$/;"	f	class:BpTVMediaService
+getSubtitileFlag	src/TVMediaService.cpp	/^int TVMediaService::getSubtitileFlag()$/;"	f	class:TVMediaService
+getSubtitle	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getSubtitle()$/;"	f	class:CTCMediaServiceClient
+getSubtitle	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getSubtitle()$/;"	f	class:IPTVMediaClient
+getSubtitle	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getSubtitle()$/;"	f	class:IPTVMediaService
+getSubtitle	src/ITVMediaService.cpp	/^        char* getSubtitle()$/;"	f	class:BpTVMediaService
+getSubtitle	src/TVMediaService.cpp	/^char* TVMediaService::getSubtitle()$/;"	f	class:TVMediaService
+getSubtitlePID	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getSubtitlePID()$/;"	f	class:CTCMediaServiceClient
+getSubtitlePID	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getSubtitlePID()$/;"	f	class:IPTVMediaClient
+getSubtitlePID	src/IPTVMediaService.cpp	/^int IPTVMediaService::getSubtitlePID()$/;"	f	class:IPTVMediaService
+getSubtitlePID	src/ITVMediaService.cpp	/^        int getSubtitlePID()$/;"	f	class:BpTVMediaService
+getSubtitlePID	src/TVMediaService.cpp	/^int TVMediaService::getSubtitlePID()$/;"	f	class:TVMediaService
+getSubtitlePIDs	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getSubtitlePIDs()$/;"	f	class:CTCMediaServiceClient
+getSubtitlePIDs	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getSubtitlePIDs()$/;"	f	class:IPTVMediaClient
+getSubtitlePIDs	src/IPTVMediaService.cpp	/^int IPTVMediaService::getSubtitlePIDs()$/;"	f	class:IPTVMediaService
+getSubtitlePIDs	src/ITVMediaService.cpp	/^        int getSubtitlePIDs()$/;"	f	class:BpTVMediaService
+getSubtitlePIDs	src/TVMediaService.cpp	/^int TVMediaService::getSubtitlePIDs()$/;"	f	class:TVMediaService
+getUrl	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::getUrl(int id)$/;"	f	class:IPTVMediaClient
+getUrl	src/ITVMediaClient.cpp	/^        virtual void getUrl(int id)$/;"	f	class:BpTVMediaClient
+getUrl	src/TVMediaClient.cpp	/^void TVMediaClient::getUrl(int id)$/;"	f	class:TVMediaClient
+getVendorSpecificAttr	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::getVendorSpecificAttr()$/;"	f	class:CTCMediaServiceClient
+getVendorSpecificAttr	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::getVendorSpecificAttr()$/;"	f	class:IPTVMediaClient
+getVendorSpecificAttr	src/IPTVMediaService.cpp	/^char* IPTVMediaService::getVendorSpecificAttr()$/;"	f	class:IPTVMediaService
+getVendorSpecificAttr	src/ITVMediaService.cpp	/^        char* getVendorSpecificAttr()$/;"	f	class:BpTVMediaService
+getVendorSpecificAttr	src/TVMediaService.cpp	/^char* TVMediaService::getVendorSpecificAttr()$/;"	f	class:TVMediaService
+getVersion	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getVersion()$/;"	f	class:CTCMediaServiceClient
+getVersion	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getVersion()$/;"	f	class:IPTVMediaClient
+getVersion	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getVersion()$/;"	f	class:IPTVMediaService
+getVersion	src/ITVMediaService.cpp	/^        int getVersion()$/;"	f	class:BpTVMediaService
+getVersion	src/TVMediaService.cpp	/^int  TVMediaService::getVersion()$/;"	f	class:TVMediaService
+getVideoAlpha	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoAlpha()$/;"	f	class:CTCMediaServiceClient
+getVideoAlpha	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoAlpha()$/;"	f	class:IPTVMediaClient
+getVideoAlpha	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoAlpha()$/;"	f	class:IPTVMediaService
+getVideoAlpha	src/ITVMediaService.cpp	/^       int getVideoAlpha()$/;"	f	class:BpTVMediaService
+getVideoAlpha	src/TVMediaService.cpp	/^int TVMediaService::getVideoAlpha()$/;"	f	class:TVMediaService
+getVideoDisplayHeight	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoDisplayHeight()$/;"	f	class:CTCMediaServiceClient
+getVideoDisplayHeight	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoDisplayHeight()$/;"	f	class:IPTVMediaClient
+getVideoDisplayHeight	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoDisplayHeight()$/;"	f	class:IPTVMediaService
+getVideoDisplayHeight	src/ITVMediaService.cpp	/^        int getVideoDisplayHeight()$/;"	f	class:BpTVMediaService
+getVideoDisplayHeight	src/TVMediaService.cpp	/^int TVMediaService::getVideoDisplayHeight()$/;"	f	class:TVMediaService
+getVideoDisplayLeft	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoDisplayLeft()$/;"	f	class:CTCMediaServiceClient
+getVideoDisplayLeft	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoDisplayLeft()$/;"	f	class:IPTVMediaClient
+getVideoDisplayLeft	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoDisplayLeft()$/;"	f	class:IPTVMediaService
+getVideoDisplayLeft	src/ITVMediaService.cpp	/^        int getVideoDisplayLeft()$/;"	f	class:BpTVMediaService
+getVideoDisplayLeft	src/TVMediaService.cpp	/^int TVMediaService::getVideoDisplayLeft()$/;"	f	class:TVMediaService
+getVideoDisplayMode	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoDisplayMode()$/;"	f	class:CTCMediaServiceClient
+getVideoDisplayMode	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoDisplayMode()$/;"	f	class:IPTVMediaClient
+getVideoDisplayMode	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoDisplayMode()$/;"	f	class:IPTVMediaService
+getVideoDisplayMode	src/ITVMediaService.cpp	/^        int getVideoDisplayMode()$/;"	f	class:BpTVMediaService
+getVideoDisplayMode	src/TVMediaService.cpp	/^int TVMediaService::getVideoDisplayMode()$/;"	f	class:TVMediaService
+getVideoDisplayTop	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoDisplayTop()$/;"	f	class:CTCMediaServiceClient
+getVideoDisplayTop	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoDisplayTop()$/;"	f	class:IPTVMediaClient
+getVideoDisplayTop	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoDisplayTop()$/;"	f	class:IPTVMediaService
+getVideoDisplayTop	src/ITVMediaService.cpp	/^        int getVideoDisplayTop()$/;"	f	class:BpTVMediaService
+getVideoDisplayTop	src/TVMediaService.cpp	/^int TVMediaService::getVideoDisplayTop()$/;"	f	class:TVMediaService
+getVideoDisplayWidth	src/CTCMediaServiceClient.cpp	/^int CTCMediaServiceClient::getVideoDisplayWidth()$/;"	f	class:CTCMediaServiceClient
+getVideoDisplayWidth	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::getVideoDisplayWidth()$/;"	f	class:IPTVMediaClient
+getVideoDisplayWidth	src/IPTVMediaService.cpp	/^int IPTVMediaService::getVideoDisplayWidth()$/;"	f	class:IPTVMediaService
+getVideoDisplayWidth	src/ITVMediaService.cpp	/^        int getVideoDisplayWidth()$/;"	f	class:BpTVMediaService
+getVideoDisplayWidth	src/TVMediaService.cpp	/^int TVMediaService::getVideoDisplayWidth()$/;"	f	class:TVMediaService
+getVideoPixels	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getVideoPixels()$/;"	f	class:CTCMediaServiceClient
+getVideoPixels	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getVideoPixels()$/;"	f	class:IPTVMediaClient
+getVideoPixels	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getVideoPixels()$/;"	f	class:IPTVMediaService
+getVideoPixels	src/ITVMediaService.cpp	/^        int getVideoPixels()$/;"	f	class:BpTVMediaService
+getVideoPixels	src/TVMediaService.cpp	/^int  TVMediaService::getVideoPixels()$/;"	f	class:TVMediaService
+getVolume	src/CTCMediaServiceClient.cpp	/^int  CTCMediaServiceClient::getVolume()$/;"	f	class:CTCMediaServiceClient
+getVolume	src/IPTVMediaClient.cpp	/^int  IPTVMediaClient::getVolume()$/;"	f	class:IPTVMediaClient
+getVolume	src/IPTVMediaService.cpp	/^int  IPTVMediaService::getVolume()$/;"	f	class:IPTVMediaService
+getVolume	src/ITVMediaService.cpp	/^        int getVolume()$/;"	f	class:BpTVMediaService
+getVolume	src/TVMediaService.cpp	/^int  TVMediaService::getVolume()$/;"	f	class:TVMediaService
+gotoEnd	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::gotoEnd()$/;"	f	class:CTCMediaServiceClient
+gotoEnd	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::gotoEnd()$/;"	f	class:IPTVMediaClient
+gotoEnd	src/IPTVMediaService.cpp	/^void IPTVMediaService::gotoEnd()$/;"	f	class:IPTVMediaService
+gotoEnd	src/ITVMediaService.cpp	/^      void gotoEnd()$/;"	f	class:BpTVMediaService
+gotoEnd	src/TVMediaService.cpp	/^void TVMediaService::gotoEnd()$/;"	f	class:TVMediaService
+gotoStart	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::gotoStart()$/;"	f	class:CTCMediaServiceClient
+gotoStart	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::gotoStart()$/;"	f	class:IPTVMediaClient
+gotoStart	src/IPTVMediaService.cpp	/^void IPTVMediaService::gotoStart()$/;"	f	class:IPTVMediaService
+gotoStart	src/ITVMediaService.cpp	/^      void gotoStart()$/;"	f	class:BpTVMediaService
+gotoStart	src/TVMediaService.cpp	/^void TVMediaService::gotoStart()$/;"	f	class:TVMediaService
+height	include/CTCMediaServiceClient.h	/^    int height;$/;"	m	struct:TVMediaPlayerRect
+init	src/ITVMediaService.cpp	/^        void init(const sp<ITVMediaClient>& client)$/;"	f	class:BpTVMediaService
+init	src/TVMediaService.cpp	/^void TVMediaService::init(const sp<ITVMediaClient>& client)$/;"	f	class:TVMediaService
+initCTCMediaPlayer	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::initCTCMediaPlayer()$/;"	f	class:CTCMediaServiceClient
+initMediaPlayer	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::initMediaPlayer(int nativePlayerInstanceID,$/;"	f	class:CTCMediaServiceClient
+initMediaPlayer	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::initMediaPlayer(int nativePlayerInstanceID,$/;"	f	class:IPTVMediaClient
+initMediaPlayer	src/IPTVMediaService.cpp	/^void IPTVMediaService::initMediaPlayer(int nativePlayerInstanceID,$/;"	f	class:IPTVMediaService
+initMediaPlayer	src/ITVMediaService.cpp	/^        void initMediaPlayer(int nativePlayerInstanceID,$/;"	f	class:BpTVMediaService
+initMediaPlayer	src/TVMediaService.cpp	/^void TVMediaService::initMediaPlayer(int nativePlayerInstanceID,$/;"	f	class:TVMediaService
+instantiate	src/TVMediaClient.cpp	/^void TVMediaClient::instantiate()$/;"	f	class:TVMediaClient
+instantiate	src/TVMediaService.cpp	/^void TVMediaService::instantiate()$/;"	f	class:TVMediaService
+iptvMediaMsg	src/TVMediaService.cpp	/^void TVMediaService::iptvMediaMsg(void *arg)$/;"	f	class:TVMediaService
+joinChannel	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::joinChannel(char *url, char* channelname, int channelid)$/;"	f	class:CTCMediaServiceClient
+joinChannel	src/IPTVMediaClient.cpp	/^int IPTVMediaClient::joinChannel(int userchannelid)$/;"	f	class:IPTVMediaClient
+joinChannel	src/IPTVMediaService.cpp	/^int IPTVMediaService::joinChannel(int userchannelid)$/;"	f	class:IPTVMediaService
+joinChannel	src/ITVMediaService.cpp	/^        int joinChannel(int userchannelid)$/;"	f	class:BpTVMediaService
+joinChannel	src/TVMediaService.cpp	/^int TVMediaService::joinChannel(int userchannelid)$/;"	f	class:TVMediaService
+last_igmp	src/CTC_MediaControl.h	/^    char* last_igmp;$/;"	m	struct:android::mplayer_status
+leaveChannel	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::leaveChannel()$/;"	f	class:CTCMediaServiceClient
+leaveChannel	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::leaveChannel()$/;"	f	class:IPTVMediaClient
+leaveChannel	src/IPTVMediaService.cpp	/^void IPTVMediaService::leaveChannel()$/;"	f	class:IPTVMediaService
+leaveChannel	src/ITVMediaService.cpp	/^        void leaveChannel()$/;"	f	class:BpTVMediaService
+leaveChannel	src/TVMediaService.cpp	/^void TVMediaService::leaveChannel()$/;"	f	class:TVMediaService
+mClientMaps	src/IPTVMediaClient.cpp	/^std::map< int, sp<ITVMediaService> > mClientMaps;$/;"	v
+mMediaClientMaps	src/IPTVMediaClient.cpp	/^std::map< int, TVMediaClient* > mMediaClientMaps;$/;"	v
+m_CTCMediaServiceClient	src/IPTVMediaService.cpp	/^CTCMediaServiceClient *m_CTCMediaServiceClient = new CTCMediaServiceClient();$/;"	v
+m_TVMediaPlayerRect	include/CTCMediaServiceClient.h	/^        TVMediaPlayerRect m_TVMediaPlayerRect;$/;"	m	class:CTCMediaServiceClient
+m_active	src/TVMediaService.cpp	/^static TVMediaService* m_active = NULL;$/;"	v	file:
+m_client	include/TVMediaService.h	/^        sp<ITVMediaClient> m_client;$/;"	m	class:TVMediaService
+m_getUrl	include/IPTVMediaClient.h	/^        getIptvUrl m_getUrl;$/;"	m	class:IPTVMediaClient
+m_iptvMClient	include/TVMediaClient.h	/^        IPTVMediaClient *m_iptvMClient;$/;"	m	class:TVMediaClient
+m_iptvMedia	include/TVMediaService.h	/^        IPTVMediaService* m_iptvMedia;$/;"	m	class:TVMediaService
+m_mediaMsg	include/IPTVMediaClient.h	/^        mediaIptvMsg m_mediaMsg;$/;"	m	class:IPTVMediaClient
+m_service	include/IPTVMediaService.h	/^        TVMediaService *m_service;$/;"	m	class:IPTVMediaService
+main	test/TVMediaClientExec.cpp	/^int main(int argc, char **argv)$/;"	f
+main	test/TVMediaServiceExec.cpp	/^int main(int argc, char **argv)$/;"	f
+mediaIptvMsg	include/IPTVMediaClient.h	/^typedef void (*mediaIptvMsg)(char *);$/;"	t
+mediaMsg	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::mediaMsg(char* msg)$/;"	f	class:IPTVMediaClient
+mediaMsg	src/ITVMediaClient.cpp	/^        virtual void mediaMsg(char *msg)$/;"	f	class:BpTVMediaClient
+mediaMsg	src/TVMediaClient.cpp	/^void TVMediaClient::mediaMsg(char *msg)$/;"	f	class:TVMediaClient
+mode	include/CTCMediaServiceClient.h	/^    int mode;$/;"	m	struct:TVMediaPlayerRect
+moveMediaByIndex	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaByIndex(const char*& entryID, int toIndex)$/;"	f	class:CTCMediaServiceClient
+moveMediaByIndex	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaByIndex(const char*& entryID, int toIndex)$/;"	f	class:IPTVMediaClient
+moveMediaByIndex	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaByIndex(const char*& entryID, int toIndex)$/;"	f	class:IPTVMediaService
+moveMediaByIndex	src/ITVMediaService.cpp	/^        void moveMediaByIndex(const char*& entryID, int toIndex)$/;"	f	class:BpTVMediaService
+moveMediaByIndex	src/TVMediaService.cpp	/^void TVMediaService::moveMediaByIndex(const char*& entryID, int toIndex)$/;"	f	class:TVMediaService
+moveMediaByIndex1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaByIndex1(int index, int toIndex)$/;"	f	class:CTCMediaServiceClient
+moveMediaByIndex1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaByIndex1(int index, int toIndex)$/;"	f	class:IPTVMediaClient
+moveMediaByIndex1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaByIndex1(int index, int toIndex)$/;"	f	class:IPTVMediaService
+moveMediaByIndex1	src/ITVMediaService.cpp	/^        void moveMediaByIndex1(int index, int toIndex)$/;"	f	class:BpTVMediaService
+moveMediaByIndex1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaByIndex1(int index, int toIndex)$/;"	f	class:TVMediaService
+moveMediaByOffset	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaByOffset(const char*& entryID, int offset)$/;"	f	class:CTCMediaServiceClient
+moveMediaByOffset	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaByOffset(const char*& entryID, int offset)$/;"	f	class:IPTVMediaClient
+moveMediaByOffset	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaByOffset(const char*& entryID, int offset)$/;"	f	class:IPTVMediaService
+moveMediaByOffset	src/ITVMediaService.cpp	/^        void moveMediaByOffset(const char*& entryID, int offset)$/;"	f	class:BpTVMediaService
+moveMediaByOffset	src/TVMediaService.cpp	/^void TVMediaService::moveMediaByOffset(const char*& entryID, int offset)$/;"	f	class:TVMediaService
+moveMediaByOffset1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaByOffset1(int index, int offset)$/;"	f	class:CTCMediaServiceClient
+moveMediaByOffset1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaByOffset1(int index, int offset)$/;"	f	class:IPTVMediaClient
+moveMediaByOffset1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaByOffset1(int index, int offset)$/;"	f	class:IPTVMediaService
+moveMediaByOffset1	src/ITVMediaService.cpp	/^        void moveMediaByOffset1(int index, int offset)$/;"	f	class:BpTVMediaService
+moveMediaByOffset1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaByOffset1(int index, int offset)$/;"	f	class:TVMediaService
+moveMediaToFirst	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToFirst(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+moveMediaToFirst	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToFirst(const char*& entryID)$/;"	f	class:IPTVMediaClient
+moveMediaToFirst	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToFirst(const char*& entryID)$/;"	f	class:IPTVMediaService
+moveMediaToFirst	src/ITVMediaService.cpp	/^        void moveMediaToFirst(const char*& entryID)$/;"	f	class:BpTVMediaService
+moveMediaToFirst	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToFirst(const char*& entryID)$/;"	f	class:TVMediaService
+moveMediaToFirst1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToFirst1(int index)$/;"	f	class:CTCMediaServiceClient
+moveMediaToFirst1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToFirst1(int index)$/;"	f	class:IPTVMediaClient
+moveMediaToFirst1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToFirst1(int index)$/;"	f	class:IPTVMediaService
+moveMediaToFirst1	src/ITVMediaService.cpp	/^        void moveMediaToFirst1(int index)$/;"	f	class:BpTVMediaService
+moveMediaToFirst1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToFirst1(int index)$/;"	f	class:TVMediaService
+moveMediaToLast	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToLast(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+moveMediaToLast	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToLast(const char*& entryID)$/;"	f	class:IPTVMediaClient
+moveMediaToLast	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToLast(const char*& entryID)$/;"	f	class:IPTVMediaService
+moveMediaToLast	src/ITVMediaService.cpp	/^        void moveMediaToLast(const char*& entryID)$/;"	f	class:BpTVMediaService
+moveMediaToLast	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToLast(const char*& entryID)$/;"	f	class:TVMediaService
+moveMediaToLast1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToLast1(int index)$/;"	f	class:CTCMediaServiceClient
+moveMediaToLast1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToLast1(int index)$/;"	f	class:IPTVMediaClient
+moveMediaToLast1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToLast1(int index)$/;"	f	class:IPTVMediaService
+moveMediaToLast1	src/ITVMediaService.cpp	/^        void moveMediaToLast1(int index)$/;"	f	class:BpTVMediaService
+moveMediaToLast1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToLast1(int index)$/;"	f	class:TVMediaService
+moveMediaToNext	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToNext(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+moveMediaToNext	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToNext(const char*& entryID)$/;"	f	class:IPTVMediaClient
+moveMediaToNext	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToNext(const char*& entryID)$/;"	f	class:IPTVMediaService
+moveMediaToNext	src/ITVMediaService.cpp	/^        void moveMediaToNext(const char*& entryID)$/;"	f	class:BpTVMediaService
+moveMediaToNext	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToNext(const char*& entryID)$/;"	f	class:TVMediaService
+moveMediaToNext1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToNext1(int index)$/;"	f	class:CTCMediaServiceClient
+moveMediaToNext1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToNext1(int index)$/;"	f	class:IPTVMediaClient
+moveMediaToNext1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToNext1(int index)$/;"	f	class:IPTVMediaService
+moveMediaToNext1	src/ITVMediaService.cpp	/^        void moveMediaToNext1(int index)$/;"	f	class:BpTVMediaService
+moveMediaToNext1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToNext1(int index)$/;"	f	class:TVMediaService
+moveMediaToPrevious	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToPrevious(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+moveMediaToPrevious	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToPrevious(const char*& entryID)$/;"	f	class:IPTVMediaClient
+moveMediaToPrevious	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToPrevious(const char*& entryID)$/;"	f	class:IPTVMediaService
+moveMediaToPrevious	src/ITVMediaService.cpp	/^        void moveMediaToPrevious(const char*& entryID)$/;"	f	class:BpTVMediaService
+moveMediaToPrevious	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToPrevious(const char*& entryID)$/;"	f	class:TVMediaService
+moveMediaToPrevious1	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::moveMediaToPrevious1(int index)$/;"	f	class:CTCMediaServiceClient
+moveMediaToPrevious1	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::moveMediaToPrevious1(int index)$/;"	f	class:IPTVMediaClient
+moveMediaToPrevious1	src/IPTVMediaService.cpp	/^void IPTVMediaService::moveMediaToPrevious1(int index)$/;"	f	class:IPTVMediaService
+moveMediaToPrevious1	src/ITVMediaService.cpp	/^        void moveMediaToPrevious1(int index)$/;"	f	class:BpTVMediaService
+moveMediaToPrevious1	src/TVMediaService.cpp	/^void TVMediaService::moveMediaToPrevious1(int index)$/;"	f	class:TVMediaService
+mplayer_event_handler	src/CTC_MediaControl.h	/^typedef int (*mplayer_event_handler)(void* arg);$/;"	t	namespace:android
+mplayer_status	src/CTC_MediaControl.h	/^struct mplayer_status$/;"	s	namespace:android
+mute	src/CTC_MediaControl.h	/^    int mute;$/;"	m	struct:android::mplayer_status
+notify	src/ITVMediaClient.cpp	/^        virtual void notify(int msg, int ext1, int ext2, const Parcel *obj)$/;"	f	class:BpTVMediaClient
+notify	src/TVMediaClient.cpp	/^void TVMediaClient::notify(int msg, int ext1, int ext2, const Parcel *obj)$/;"	f	class:TVMediaClient
+onTransact	src/ITVMediaClient.cpp	/^status_t BnTVMediaClient::onTransact($/;"	f	class:BnTVMediaClient
+onTransact	src/TVMediaService.cpp	/^status_t BnTVMediaService::onTransact(uint32_t code, const Parcel& data, Parcel* reply, uint32_t flags)$/;"	f	class:BnTVMediaService
+pause	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::pause()$/;"	f	class:CTCMediaServiceClient
+pause	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::pause()$/;"	f	class:IPTVMediaClient
+pause	src/IPTVMediaService.cpp	/^void IPTVMediaService::pause()$/;"	f	class:IPTVMediaService
+pause	src/ITVMediaService.cpp	/^        void pause()$/;"	f	class:BpTVMediaService
+pause	src/TVMediaService.cpp	/^void TVMediaService::pause()$/;"	f	class:TVMediaService
+play	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::play()$/;"	f	class:CTCMediaServiceClient
+play	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::play()$/;"	f	class:IPTVMediaClient
+play	src/IPTVMediaService.cpp	/^void IPTVMediaService::play()$/;"	f	class:IPTVMediaService
+play	src/ITVMediaService.cpp	/^        void play()$/;"	f	class:BpTVMediaService
+play	src/TVMediaService.cpp	/^void TVMediaService::play()$/;"	f	class:TVMediaService
+playByTime	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::playByTime(int type, char*& timestamp, int speed)$/;"	f	class:CTCMediaServiceClient
+playByTime	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::playByTime(int type, char*& timestamp, int speed)$/;"	f	class:IPTVMediaClient
+playByTime	src/IPTVMediaService.cpp	/^void IPTVMediaService::playByTime(int type, char*& timestamp, int speed)$/;"	f	class:IPTVMediaService
+playByTime	src/ITVMediaService.cpp	/^        void playByTime(int type, char*& timestamp, int speed)$/;"	f	class:BpTVMediaService
+playByTime	src/TVMediaService.cpp	/^void TVMediaService::playByTime(int type, char*& timestamp, int speed)$/;"	f	class:TVMediaService
+playFromStart	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::playFromStart(char*& mediaStr)$/;"	f	class:CTCMediaServiceClient
+playFromStart	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::playFromStart()$/;"	f	class:IPTVMediaClient
+playFromStart	src/IPTVMediaService.cpp	/^void IPTVMediaService::playFromStart()$/;"	f	class:IPTVMediaService
+playFromStart	src/ITVMediaService.cpp	/^        void playFromStart()$/;"	f	class:BpTVMediaService
+playFromStart	src/TVMediaService.cpp	/^void TVMediaService::playFromStart()$/;"	f	class:TVMediaService
+refreshVideoDisplay	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::refreshVideoDisplay()$/;"	f	class:CTCMediaServiceClient
+refreshVideoDisplay	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::refreshVideoDisplay()$/;"	f	class:IPTVMediaClient
+refreshVideoDisplay	src/IPTVMediaService.cpp	/^void IPTVMediaService::refreshVideoDisplay()$/;"	f	class:IPTVMediaService
+refreshVideoDisplay	src/ITVMediaService.cpp	/^      void refreshVideoDisplay()$/;"	f	class:BpTVMediaService
+refreshVideoDisplay	src/TVMediaService.cpp	/^void TVMediaService::refreshVideoDisplay()$/;"	f	class:TVMediaService
+releaseMediaPlayer	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::releaseMediaPlayer(int nativePlayerInstanceID)$/;"	f	class:CTCMediaServiceClient
+releaseMediaPlayer	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::releaseMediaPlayer(int nativePlayerInstanceID)$/;"	f	class:IPTVMediaClient
+releaseMediaPlayer	src/IPTVMediaService.cpp	/^void IPTVMediaService::releaseMediaPlayer(int nativePlayerInstanceID)$/;"	f	class:IPTVMediaService
+releaseMediaPlayer	src/ITVMediaService.cpp	/^        void releaseMediaPlayer(int nativePlayerInstanceID)$/;"	f	class:BpTVMediaService
+releaseMediaPlayer	src/TVMediaService.cpp	/^void TVMediaService::releaseMediaPlayer(int nativePlayerInstanceID)$/;"	f	class:TVMediaService
+removeMediaByEntryID	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::removeMediaByEntryID(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+removeMediaByEntryID	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::removeMediaByEntryID(const char*& entryID)$/;"	f	class:IPTVMediaClient
+removeMediaByEntryID	src/IPTVMediaService.cpp	/^void IPTVMediaService::removeMediaByEntryID(const char*& entryID)$/;"	f	class:IPTVMediaService
+removeMediaByEntryID	src/ITVMediaService.cpp	/^        void removeMediaByEntryID(const char*& entryID)$/;"	f	class:BpTVMediaService
+removeMediaByEntryID	src/TVMediaService.cpp	/^void TVMediaService::removeMediaByEntryID(const char*& entryID)$/;"	f	class:TVMediaService
+removeMediaByIndex	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::removeMediaByIndex(int index)$/;"	f	class:CTCMediaServiceClient
+removeMediaByIndex	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::removeMediaByIndex(int index)$/;"	f	class:IPTVMediaClient
+removeMediaByIndex	src/IPTVMediaService.cpp	/^void IPTVMediaService::removeMediaByIndex(int index)$/;"	f	class:IPTVMediaService
+removeMediaByIndex	src/ITVMediaService.cpp	/^        void removeMediaByIndex(int index)$/;"	f	class:BpTVMediaService
+removeMediaByIndex	src/TVMediaService.cpp	/^void TVMediaService::removeMediaByIndex(int index)$/;"	f	class:TVMediaService
+reset	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::reset()$/;"	f	class:CTCMediaServiceClient
+reset	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::reset()$/;"	f	class:IPTVMediaClient
+reset	src/IPTVMediaService.cpp	/^void IPTVMediaService::reset()$/;"	f	class:IPTVMediaService
+reset	src/ITVMediaService.cpp	/^        void reset()$/;"	f	class:BpTVMediaService
+reset	src/TVMediaService.cpp	/^void TVMediaService::reset()$/;"	f	class:TVMediaService
+resume	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::resume()$/;"	f	class:CTCMediaServiceClient
+resume	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::resume()$/;"	f	class:IPTVMediaClient
+resume	src/IPTVMediaService.cpp	/^void IPTVMediaService::resume()$/;"	f	class:IPTVMediaService
+resume	src/ITVMediaService.cpp	/^        void resume()$/;"	f	class:BpTVMediaService
+resume	src/TVMediaService.cpp	/^void TVMediaService::resume()$/;"	f	class:TVMediaService
+rewind	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::rewind(int speed)$/;"	f	class:CTCMediaServiceClient
+rewind	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::rewind(int speed)$/;"	f	class:IPTVMediaClient
+rewind	src/IPTVMediaService.cpp	/^void IPTVMediaService::rewind(int speed)$/;"	f	class:IPTVMediaService
+rewind	src/ITVMediaService.cpp	/^        void rewind(int speed)$/;"	f	class:BpTVMediaService
+rewind	src/TVMediaService.cpp	/^void TVMediaService::rewind(int speed)$/;"	f	class:TVMediaService
+runGame	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::runGame(const char* values)$/;"	f	class:CTCMediaServiceClient
+runGame	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::runGame(const char* values)$/;"	f	class:IPTVMediaClient
+runGame	src/IPTVMediaService.cpp	/^void IPTVMediaService::runGame(const char* values)$/;"	f	class:IPTVMediaService
+runGame	src/ITVMediaService.cpp	/^      void runGame(const char* values)$/;"	f	class:BpTVMediaService
+runGame	src/TVMediaService.cpp	/^void TVMediaService::runGame(const char* values)$/;"	f	class:TVMediaService
+seek	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::seek(int time)$/;"	f	class:CTCMediaServiceClient
+seek	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::seek(int time)$/;"	f	class:IPTVMediaClient
+seek	src/IPTVMediaService.cpp	/^void IPTVMediaService::seek(int time)$/;"	f	class:IPTVMediaService
+seek	src/ITVMediaService.cpp	/^        void seek(int time)$/;"	f	class:BpTVMediaService
+seek	src/TVMediaService.cpp	/^void TVMediaService::seek(int time) $/;"	f	class:TVMediaService
+selectFirst	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectFirst()$/;"	f	class:CTCMediaServiceClient
+selectFirst	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectFirst()$/;"	f	class:IPTVMediaClient
+selectFirst	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectFirst()$/;"	f	class:IPTVMediaService
+selectFirst	src/ITVMediaService.cpp	/^        void selectFirst()$/;"	f	class:BpTVMediaService
+selectFirst	src/TVMediaService.cpp	/^void TVMediaService::selectFirst()$/;"	f	class:TVMediaService
+selectLast	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectLast()$/;"	f	class:CTCMediaServiceClient
+selectLast	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectLast()$/;"	f	class:IPTVMediaClient
+selectLast	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectLast()$/;"	f	class:IPTVMediaService
+selectLast	src/ITVMediaService.cpp	/^        void selectLast()$/;"	f	class:BpTVMediaService
+selectLast	src/TVMediaService.cpp	/^void TVMediaService::selectLast()$/;"	f	class:TVMediaService
+selectMediaByEntryID	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectMediaByEntryID(const char*& entryID)$/;"	f	class:CTCMediaServiceClient
+selectMediaByEntryID	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectMediaByEntryID(const char*& entryID)$/;"	f	class:IPTVMediaClient
+selectMediaByEntryID	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectMediaByEntryID(const char*& entryID)$/;"	f	class:IPTVMediaService
+selectMediaByEntryID	src/ITVMediaService.cpp	/^        void selectMediaByEntryID(const char*& entryID)$/;"	f	class:BpTVMediaService
+selectMediaByEntryID	src/TVMediaService.cpp	/^void TVMediaService::selectMediaByEntryID(const char*& entryID)$/;"	f	class:TVMediaService
+selectMediaByIndex	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectMediaByIndex(int index)$/;"	f	class:CTCMediaServiceClient
+selectMediaByIndex	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectMediaByIndex(int index)$/;"	f	class:IPTVMediaClient
+selectMediaByIndex	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectMediaByIndex(int index)$/;"	f	class:IPTVMediaService
+selectMediaByIndex	src/ITVMediaService.cpp	/^        void selectMediaByIndex(int index)$/;"	f	class:BpTVMediaService
+selectMediaByIndex	src/TVMediaService.cpp	/^void TVMediaService::selectMediaByIndex(int index)$/;"	f	class:TVMediaService
+selectMediaByOffset	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectMediaByOffset(int offset)$/;"	f	class:CTCMediaServiceClient
+selectMediaByOffset	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectMediaByOffset(int offset)$/;"	f	class:IPTVMediaClient
+selectMediaByOffset	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectMediaByOffset(int offset)$/;"	f	class:IPTVMediaService
+selectMediaByOffset	src/ITVMediaService.cpp	/^        void selectMediaByOffset(int offset)$/;"	f	class:BpTVMediaService
+selectMediaByOffset	src/TVMediaService.cpp	/^void TVMediaService::selectMediaByOffset(int offset)$/;"	f	class:TVMediaService
+selectNext	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectNext()$/;"	f	class:CTCMediaServiceClient
+selectNext	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectNext()$/;"	f	class:IPTVMediaClient
+selectNext	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectNext()$/;"	f	class:IPTVMediaService
+selectNext	src/ITVMediaService.cpp	/^        void selectNext()$/;"	f	class:BpTVMediaService
+selectNext	src/TVMediaService.cpp	/^void TVMediaService::selectNext()$/;"	f	class:TVMediaService
+selectPrevious	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::selectPrevious()$/;"	f	class:CTCMediaServiceClient
+selectPrevious	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::selectPrevious()$/;"	f	class:IPTVMediaClient
+selectPrevious	src/IPTVMediaService.cpp	/^void IPTVMediaService::selectPrevious()$/;"	f	class:IPTVMediaService
+selectPrevious	src/ITVMediaService.cpp	/^        void selectPrevious()$/;"	f	class:BpTVMediaService
+selectPrevious	src/TVMediaService.cpp	/^void TVMediaService::selectPrevious()$/;"	f	class:TVMediaService
+sendVendorSpecificCommand	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::sendVendorSpecificCommand(const char*& xml)$/;"	f	class:CTCMediaServiceClient
+sendVendorSpecificCommand	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::sendVendorSpecificCommand(const char*& xml)$/;"	f	class:IPTVMediaClient
+sendVendorSpecificCommand	src/IPTVMediaService.cpp	/^void IPTVMediaService::sendVendorSpecificCommand(const char*& xml)$/;"	f	class:IPTVMediaService
+sendVendorSpecificCommand	src/ITVMediaService.cpp	/^        void sendVendorSpecificCommand(const char*& xml)$/;"	f	class:BpTVMediaService
+sendVendorSpecificCommand	src/TVMediaService.cpp	/^void TVMediaService::sendVendorSpecificCommand(const char*& xml)$/;"	f	class:TVMediaService
+set	src/CTCMediaServiceClient.cpp	/^char* CTCMediaServiceClient::set(char*& ioStr, char*& wrStr)$/;"	f	class:CTCMediaServiceClient
+set	src/IPTVMediaClient.cpp	/^char* IPTVMediaClient::set(char*& ioStr, char*& wrStr)$/;"	f	class:IPTVMediaClient
+set	src/IPTVMediaService.cpp	/^char* IPTVMediaService::set(char*& ioStr, char*& wrStr)$/;"	f	class:IPTVMediaService
+set	src/ITVMediaService.cpp	/^        char* set(char*& ioStr, char*& wrStr)$/;"	f	class:BpTVMediaService
+set	src/TVMediaService.cpp	/^char* TVMediaService::set(char*& ioStr, char*& wrStr)$/;"	f	class:TVMediaService
+setAllowTrickmodeFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setAllowTrickmodeFlag(int allowTrickmodeFlag)$/;"	f	class:CTCMediaServiceClient
+setAllowTrickmodeFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setAllowTrickmodeFlag(int allowTrickmodeFlag)$/;"	f	class:IPTVMediaClient
+setAllowTrickmodeFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setAllowTrickmodeFlag(int allowTrickmodeFlag)$/;"	f	class:IPTVMediaService
+setAllowTrickmodeFlag	src/ITVMediaService.cpp	/^        void setAllowTrickmodeFlag(int allowTrickmodeFlag)$/;"	f	class:BpTVMediaService
+setAllowTrickmodeFlag	src/TVMediaService.cpp	/^void TVMediaService::setAllowTrickmodeFlag(int allowTrickmodeFlag)$/;"	f	class:TVMediaService
+setAlpha	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setAlpha()$/;"	f	class:CTCMediaServiceClient
+setAlpha	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setAlpha()$/;"	f	class:IPTVMediaClient
+setAlpha	src/IPTVMediaService.cpp	/^void IPTVMediaService::setAlpha()$/;"	f	class:IPTVMediaService
+setAlpha	src/ITVMediaService.cpp	/^        void setAlpha()$/;"	f	class:BpTVMediaService
+setAlpha	src/TVMediaService.cpp	/^void TVMediaService::setAlpha()$/;"	f	class:TVMediaService
+setAudioPID	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setAudioPID(int pid)$/;"	f	class:CTCMediaServiceClient
+setAudioPID	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setAudioPID(int pid)$/;"	f	class:IPTVMediaClient
+setAudioPID	src/IPTVMediaService.cpp	/^void IPTVMediaService::setAudioPID(int pid)$/;"	f	class:IPTVMediaService
+setAudioPID	src/ITVMediaService.cpp	/^        void setAudioPID(int pid)$/;"	f	class:BpTVMediaService
+setAudioPID	src/TVMediaService.cpp	/^void TVMediaService::setAudioPID(int pid)$/;"	f	class:TVMediaService
+setAudioTrackUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setAudioTrackUIFlag(int audioTrackUIFlag)$/;"	f	class:CTCMediaServiceClient
+setAudioTrackUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setAudioTrackUIFlag(int audioTrackUIFlag)$/;"	f	class:IPTVMediaClient
+setAudioTrackUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setAudioTrackUIFlag(int audioTrackUIFlag)$/;"	f	class:IPTVMediaService
+setAudioTrackUIFlag	src/ITVMediaService.cpp	/^        void setAudioTrackUIFlag(int audioTrackUIFlag)$/;"	f	class:BpTVMediaService
+setAudioTrackUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setAudioTrackUIFlag(int audioTrackUIFlag)$/;"	f	class:TVMediaService
+setAudioVolumeUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setAudioVolumeUIFlag(int audioVolumeUIFlag)$/;"	f	class:CTCMediaServiceClient
+setAudioVolumeUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setAudioVolumeUIFlag(int audioVolumeUIFlag)$/;"	f	class:IPTVMediaClient
+setAudioVolumeUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setAudioVolumeUIFlag(int audioVolumeUIFlag)$/;"	f	class:IPTVMediaService
+setAudioVolumeUIFlag	src/ITVMediaService.cpp	/^        void setAudioVolumeUIFlag(int audioVolumeUIFlag)$/;"	f	class:BpTVMediaService
+setAudioVolumeUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setAudioVolumeUIFlag(int audioVolumeUIFlag)$/;"	f	class:TVMediaService
+setChannelNoUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setChannelNoUIFlag(int channelNOUIFlag)$/;"	f	class:CTCMediaServiceClient
+setChannelNoUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setChannelNoUIFlag(int channelNOUIFlag)$/;"	f	class:IPTVMediaClient
+setChannelNoUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setChannelNoUIFlag(int channelNOUIFlag)$/;"	f	class:IPTVMediaService
+setChannelNoUIFlag	src/ITVMediaService.cpp	/^        void setChannelNoUIFlag(int channelNOUIFlag)$/;"	f	class:BpTVMediaService
+setChannelNoUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setChannelNoUIFlag(int channelNOUIFlag)$/;"	f	class:TVMediaService
+setCycleFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setCycleFlag(int cycleFlag)$/;"	f	class:CTCMediaServiceClient
+setCycleFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setCycleFlag(int cycleFlag)$/;"	f	class:IPTVMediaClient
+setCycleFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setCycleFlag(int cycleFlag)$/;"	f	class:IPTVMediaService
+setCycleFlag	src/ITVMediaService.cpp	/^        void setCycleFlag(int cycleFlag)$/;"	f	class:BpTVMediaService
+setCycleFlag	src/TVMediaService.cpp	/^void TVMediaService::setCycleFlag(int cycleFlag)$/;"	f	class:TVMediaService
+setMute	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setMute(int volume)$/;"	f	class:CTCMediaServiceClient
+setMute	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setMute(int volume)$/;"	f	class:IPTVMediaClient
+setMute	src/IPTVMediaService.cpp	/^void IPTVMediaService::setMute(int volume)$/;"	f	class:IPTVMediaService
+setMute	src/ITVMediaService.cpp	/^        void setMute(int mute)$/;"	f	class:BpTVMediaService
+setMute	src/TVMediaService.cpp	/^void TVMediaService::setMute(int mute)$/;"	f	class:TVMediaService
+setMuteFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setMuteFlag(int muteFlag)$/;"	f	class:CTCMediaServiceClient
+setMuteFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setMuteFlag(int muteFlag)$/;"	f	class:IPTVMediaClient
+setMuteFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setMuteFlag(int muteFlag)$/;"	f	class:IPTVMediaService
+setMuteFlag	src/ITVMediaService.cpp	/^       void setMuteFlag(int muteFlag)$/;"	f	class:BpTVMediaService
+setMuteFlag	src/TVMediaService.cpp	/^void TVMediaService::setMuteFlag(int muteFlag)$/;"	f	class:TVMediaService
+setMuteUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setMuteUIFlag(int muteUIFlag)$/;"	f	class:CTCMediaServiceClient
+setMuteUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setMuteUIFlag(int muteUIFlag)$/;"	f	class:IPTVMediaClient
+setMuteUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setMuteUIFlag(int muteUIFlag)$/;"	f	class:IPTVMediaService
+setMuteUIFlag	src/ITVMediaService.cpp	/^        void setMuteUIFlag(int muteUIFlag)$/;"	f	class:BpTVMediaService
+setMuteUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setMuteUIFlag(int muteUIFlag)$/;"	f	class:TVMediaService
+setNativeUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setNativeUIFlag(int nativeUIFlag)$/;"	f	class:CTCMediaServiceClient
+setNativeUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setNativeUIFlag(int nativeUIFlag)$/;"	f	class:IPTVMediaClient
+setNativeUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setNativeUIFlag(int nativeUIFlag)$/;"	f	class:IPTVMediaService
+setNativeUIFlag	src/ITVMediaService.cpp	/^        void setNativeUIFlag(int nativeUIFlag)$/;"	f	class:BpTVMediaService
+setNativeUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setNativeUIFlag(int nativeUIFlag)$/;"	f	class:TVMediaService
+setProgressBarUIFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setProgressBarUIFlag(int progressBarUIFlag)$/;"	f	class:CTCMediaServiceClient
+setProgressBarUIFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setProgressBarUIFlag(int progressBarUIFlag)$/;"	f	class:IPTVMediaClient
+setProgressBarUIFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setProgressBarUIFlag(int progressBarUIFlag)$/;"	f	class:IPTVMediaService
+setProgressBarUIFlag	src/ITVMediaService.cpp	/^        void setProgressBarUIFlag(int progressBarUIFlag)$/;"	f	class:BpTVMediaService
+setProgressBarUIFlag	src/TVMediaService.cpp	/^void TVMediaService::setProgressBarUIFlag(int progressBarUIFlag)$/;"	f	class:TVMediaService
+setRandomFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setRandomFlag(int randomFlag)$/;"	f	class:CTCMediaServiceClient
+setRandomFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setRandomFlag(int randomFlag)$/;"	f	class:IPTVMediaClient
+setRandomFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setRandomFlag(int randomFlag)$/;"	f	class:IPTVMediaService
+setRandomFlag	src/ITVMediaService.cpp	/^        void setRandomFlag(int randomFlag)$/;"	f	class:BpTVMediaService
+setRandomFlag	src/TVMediaService.cpp	/^void TVMediaService::setRandomFlag(int randomFlag)$/;"	f	class:TVMediaService
+setRatio	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setRatio()$/;"	f	class:CTCMediaServiceClient
+setRatio	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setRatio()$/;"	f	class:IPTVMediaClient
+setRatio	src/IPTVMediaService.cpp	/^void IPTVMediaService::setRatio()$/;"	f	class:IPTVMediaService
+setRatio	src/ITVMediaService.cpp	/^        void setRatio()$/;"	f	class:BpTVMediaService
+setRatio	src/TVMediaService.cpp	/^void TVMediaService::setRatio() $/;"	f	class:TVMediaService
+setSingleMedia	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setSingleMedia(char*& mediaStr)$/;"	f	class:CTCMediaServiceClient
+setSingleMedia	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setSingleMedia(char*& mediaStr)$/;"	f	class:IPTVMediaClient
+setSingleMedia	src/IPTVMediaService.cpp	/^void IPTVMediaService::setSingleMedia(char*& mediaStr)$/;"	f	class:IPTVMediaService
+setSingleMedia	src/ITVMediaService.cpp	/^      void setSingleMedia(char*& mediaStr)$/;"	f	class:BpTVMediaService
+setSingleMedia	src/TVMediaService.cpp	/^void TVMediaService::setSingleMedia(char*& mediaStr)$/;"	f	class:TVMediaService
+setSingleOrPlaylistMode	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setSingleOrPlaylistMode(int mode)$/;"	f	class:CTCMediaServiceClient
+setSingleOrPlaylistMode	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setSingleOrPlaylistMode(int mode)$/;"	f	class:IPTVMediaClient
+setSingleOrPlaylistMode	src/IPTVMediaService.cpp	/^void IPTVMediaService::setSingleOrPlaylistMode(int mode)$/;"	f	class:IPTVMediaService
+setSingleOrPlaylistMode	src/ITVMediaService.cpp	/^        void setSingleOrPlaylistMode(int mode)$/;"	f	class:BpTVMediaService
+setSingleOrPlaylistMode	src/TVMediaService.cpp	/^void TVMediaService::setSingleOrPlaylistMode(int mode)$/;"	f	class:TVMediaService
+setSubtitileFlag	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setSubtitileFlag(int subtitileFlag)$/;"	f	class:CTCMediaServiceClient
+setSubtitileFlag	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setSubtitileFlag(int subtitileFlag)$/;"	f	class:IPTVMediaClient
+setSubtitileFlag	src/IPTVMediaService.cpp	/^void IPTVMediaService::setSubtitileFlag(int subtitileFlag)$/;"	f	class:IPTVMediaService
+setSubtitileFlag	src/ITVMediaService.cpp	/^        void setSubtitileFlag(int subtitileFlag)$/;"	f	class:BpTVMediaService
+setSubtitileFlag	src/TVMediaService.cpp	/^void TVMediaService::setSubtitileFlag(int subtitileFlag)$/;"	f	class:TVMediaService
+setSubtitlePID	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setSubtitlePID(int pid)$/;"	f	class:CTCMediaServiceClient
+setSubtitlePID	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setSubtitlePID(int pid)$/;"	f	class:IPTVMediaClient
+setSubtitlePID	src/IPTVMediaService.cpp	/^void IPTVMediaService::setSubtitlePID(int pid)$/;"	f	class:IPTVMediaService
+setSubtitlePID	src/ITVMediaService.cpp	/^        void setSubtitlePID(int pid)$/;"	f	class:BpTVMediaService
+setSubtitlePID	src/TVMediaService.cpp	/^void TVMediaService::setSubtitlePID(int pid)$/;"	f	class:TVMediaService
+setVendorSpecificAttr	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVendorSpecificAttr(const char*& vendorSpecificAttr)$/;"	f	class:CTCMediaServiceClient
+setVendorSpecificAttr	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVendorSpecificAttr(const char*& vendorSpecificAttr)$/;"	f	class:IPTVMediaClient
+setVendorSpecificAttr	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVendorSpecificAttr(const char*& vendorSpecificAttr)$/;"	f	class:IPTVMediaService
+setVendorSpecificAttr	src/ITVMediaService.cpp	/^        void setVendorSpecificAttr(const char*& vendorSpecificAttr)$/;"	f	class:BpTVMediaService
+setVendorSpecificAttr	src/TVMediaService.cpp	/^void TVMediaService::setVendorSpecificAttr(const char*& vendorSpecificAttr)$/;"	f	class:TVMediaService
+setVideoAlpha	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVideoAlpha(int videoAlpha)$/;"	f	class:CTCMediaServiceClient
+setVideoAlpha	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVideoAlpha(int videoAlpha)$/;"	f	class:IPTVMediaClient
+setVideoAlpha	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVideoAlpha(int videoAlpha)$/;"	f	class:IPTVMediaService
+setVideoAlpha	src/ITVMediaService.cpp	/^       void setVideoAlpha(int videoAlpha)$/;"	f	class:BpTVMediaService
+setVideoAlpha	src/TVMediaService.cpp	/^void TVMediaService::setVideoAlpha(int videoAlpha)$/;"	f	class:TVMediaService
+setVideoDisplayArea	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVideoDisplayArea(int x, int y, int width, int height)$/;"	f	class:CTCMediaServiceClient
+setVideoDisplayArea	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVideoDisplayArea(int x, int y, int width, int height)$/;"	f	class:IPTVMediaClient
+setVideoDisplayArea	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVideoDisplayArea(int x, int y, int width, int height)$/;"	f	class:IPTVMediaService
+setVideoDisplayArea	src/ITVMediaService.cpp	/^        void setVideoDisplayArea(int x, int y, int width, int height)$/;"	f	class:BpTVMediaService
+setVideoDisplayArea	src/TVMediaService.cpp	/^void TVMediaService::setVideoDisplayArea(int x, int y, int width, int height)$/;"	f	class:TVMediaService
+setVideoDisplayMode	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVideoDisplayMode(int videoDisplayMode)$/;"	f	class:CTCMediaServiceClient
+setVideoDisplayMode	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVideoDisplayMode(int videoDisplayMode)$/;"	f	class:IPTVMediaClient
+setVideoDisplayMode	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVideoDisplayMode(int videoDisplayMode)$/;"	f	class:IPTVMediaService
+setVideoDisplayMode	src/ITVMediaService.cpp	/^        void setVideoDisplayMode(int videoDisplayMode)$/;"	f	class:BpTVMediaService
+setVideoDisplayMode	src/TVMediaService.cpp	/^void TVMediaService::setVideoDisplayMode(int videoDisplayMode)$/;"	f	class:TVMediaService
+setVideoWindow	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVideoWindow(int x, int y, int width, int height, int mode)$/;"	f	class:CTCMediaServiceClient
+setVideoWindow	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVideoWindow(int x, int y, int width, int height, int mode)$/;"	f	class:IPTVMediaClient
+setVideoWindow	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVideoWindow(int x, int y, int width, int height, int mode)$/;"	f	class:IPTVMediaService
+setVideoWindow	src/ITVMediaService.cpp	/^        void setVideoWindow(int x, int y, int width, int height, int mode)$/;"	f	class:BpTVMediaService
+setVideoWindow	src/TVMediaService.cpp	/^void TVMediaService::setVideoWindow(int x, int y, int width, int height, int mode)$/;"	f	class:TVMediaService
+setVolume	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::setVolume(int volume)$/;"	f	class:CTCMediaServiceClient
+setVolume	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::setVolume(int volume)$/;"	f	class:IPTVMediaClient
+setVolume	src/IPTVMediaService.cpp	/^void IPTVMediaService::setVolume(int volume)$/;"	f	class:IPTVMediaService
+setVolume	src/ITVMediaService.cpp	/^        void setVolume(int volume)$/;"	f	class:BpTVMediaService
+setVolume	src/TVMediaService.cpp	/^void TVMediaService::setVolume(int volume)$/;"	f	class:TVMediaService
+stop	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::stop()$/;"	f	class:CTCMediaServiceClient
+stop	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::stop()$/;"	f	class:IPTVMediaClient
+stop	src/IPTVMediaService.cpp	/^void IPTVMediaService::stop()$/;"	f	class:IPTVMediaService
+stop	src/ITVMediaService.cpp	/^        void stop()$/;"	f	class:BpTVMediaService
+stop	src/TVMediaService.cpp	/^void TVMediaService::stop()$/;"	f	class:TVMediaService
+switchAudioChannel	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::switchAudioChannel()$/;"	f	class:CTCMediaServiceClient
+switchAudioChannel	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::switchAudioChannel()$/;"	f	class:IPTVMediaClient
+switchAudioChannel	src/IPTVMediaService.cpp	/^void IPTVMediaService::switchAudioChannel()$/;"	f	class:IPTVMediaService
+switchAudioChannel	src/ITVMediaService.cpp	/^      void switchAudioChannel()$/;"	f	class:BpTVMediaService
+switchAudioChannel	src/TVMediaService.cpp	/^void TVMediaService::switchAudioChannel()$/;"	f	class:TVMediaService
+switchAudioTrack	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::switchAudioTrack()$/;"	f	class:CTCMediaServiceClient
+switchAudioTrack	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::switchAudioTrack()$/;"	f	class:IPTVMediaClient
+switchAudioTrack	src/IPTVMediaService.cpp	/^void IPTVMediaService::switchAudioTrack()$/;"	f	class:IPTVMediaService
+switchAudioTrack	src/ITVMediaService.cpp	/^      void switchAudioTrack()$/;"	f	class:BpTVMediaService
+switchAudioTrack	src/TVMediaService.cpp	/^void TVMediaService::switchAudioTrack()$/;"	f	class:TVMediaService
+switchSubtitle	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::switchSubtitle()$/;"	f	class:CTCMediaServiceClient
+switchSubtitle	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::switchSubtitle()$/;"	f	class:IPTVMediaClient
+switchSubtitle	src/IPTVMediaService.cpp	/^void IPTVMediaService::switchSubtitle()$/;"	f	class:IPTVMediaService
+switchSubtitle	src/ITVMediaService.cpp	/^        void switchSubtitle()$/;"	f	class:BpTVMediaService
+switchSubtitle	src/TVMediaService.cpp	/^void TVMediaService::switchSubtitle()$/;"	f	class:TVMediaService
+videohide	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::videohide()$/;"	f	class:CTCMediaServiceClient
+videohide	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::videohide()$/;"	f	class:IPTVMediaClient
+videohide	src/IPTVMediaService.cpp	/^void IPTVMediaService::videohide()$/;"	f	class:IPTVMediaService
+videohide	src/ITVMediaService.cpp	/^        void videohide()$/;"	f	class:BpTVMediaService
+videohide	src/TVMediaService.cpp	/^void TVMediaService::videohide()$/;"	f	class:TVMediaService
+videoshow	src/CTCMediaServiceClient.cpp	/^void CTCMediaServiceClient::videoshow()$/;"	f	class:CTCMediaServiceClient
+videoshow	src/IPTVMediaClient.cpp	/^void IPTVMediaClient::videoshow()$/;"	f	class:IPTVMediaClient
+videoshow	src/IPTVMediaService.cpp	/^void IPTVMediaService::videoshow()$/;"	f	class:IPTVMediaService
+videoshow	src/ITVMediaService.cpp	/^        void videoshow()$/;"	f	class:BpTVMediaService
+videoshow	src/TVMediaService.cpp	/^void TVMediaService::videoshow()$/;"	f	class:TVMediaService
+volume	src/CTC_MediaControl.h	/^    int volume;$/;"	m	struct:android::mplayer_status
+width	include/CTCMediaServiceClient.h	/^    int width;$/;"	m	struct:TVMediaPlayerRect
+x	include/CTCMediaServiceClient.h	/^    int x;$/;"	m	struct:TVMediaPlayerRect
+y	include/CTCMediaServiceClient.h	/^    int y;$/;"	m	struct:TVMediaPlayerRect
+~CTCMediaServiceClient	src/CTCMediaServiceClient.cpp	/^CTCMediaServiceClient::~CTCMediaServiceClient()$/;"	f	class:CTCMediaServiceClient
+~IPTVMediaClient	src/IPTVMediaClient.cpp	/^IPTVMediaClient::~IPTVMediaClient()$/;"	f	class:IPTVMediaClient
+~IPTVMediaService	src/IPTVMediaService.cpp	/^IPTVMediaService::~IPTVMediaService()$/;"	f	class:IPTVMediaService
+~TVMediaClient	src/TVMediaClient.cpp	/^TVMediaClient::~TVMediaClient()$/;"	f	class:TVMediaClient
+~TVMediaService	src/TVMediaService.cpp	/^TVMediaService::~TVMediaService()$/;"	f	class:TVMediaService
